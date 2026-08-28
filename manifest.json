@@ -1,6 +1,6 @@
 {
   "version": "2026-08-28",
-  "nota": "Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220).",
+  "nota": "Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220). Re-georreferenciadas a mano (2026-08-28) las 5 que se habian excluido por bounds erroneos: se detecto que la hoja compuesta trae mini-mapas de referencia (mapa de ubicacion, trabajos anteriores, cuadro de situacion) con su PROPIA grilla de coordenadas dentro del mismo rango de valores plausibles que el mapa principal, confundiendo el ajuste automatico; se filtraron las etiquetas espurias a mano por posicion en pixeles usando las coordenadas del propio PDF fuente (texto vectorial, no OCR) -- error final del ajuste bajo 135 m en las 5, contra 100+ km antes.",
   "mapas": [
     {
       "id": "geo_F19_pichibelco",
@@ -952,6 +952,101 @@
       "leyenda": "leyendas/Ovalle_y_Peña_Blanca_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Felipe Coloma B., Javier Álvarez A., Christian Creixell T., Carlos Emparán C., Esteban Salazar P., Mauricio Calderón N."
+    },
+    {
+      "id": "CGCH_GB_137_TextoyMapa",
+      "titulo": "Geología del área Valdivia-Corral",
+      "region": "Región de Los Ríos",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2012",
+      "escala": "1:100.000",
+      "informe": "GB-137",
+      "bounds": {
+        "n": -39.492823,
+        "s": -40.008291,
+        "e": -72.987703,
+        "w": -73.761341
+      },
+      "overlay": "overlays/CGCH_GB_137_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_137_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0
+    },
+    {
+      "id": "CGCH_GB_161_TextoyMapa",
+      "titulo": "Carta Cifuncho",
+      "region": "Regiones de Antofagasta y de Atacama",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2013",
+      "escala": "1:100.000",
+      "informe": "GB-161",
+      "bounds": {
+        "n": -25.499767,
+        "s": -26.012055,
+        "e": -70.487904,
+        "w": -70.75197
+      },
+      "overlay": "overlays/CGCH_GB_161_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_161_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0
+    },
+    {
+      "id": "CGCH_GB_183_184_TextoyMapa",
+      "titulo": "Cartas Punta Posallaves y Sierra Vicuña Mackenna",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2016",
+      "escala": "1:100.000",
+      "informe": "GB-183-184",
+      "bounds": {
+        "n": -24.492826,
+        "s": -25.009616,
+        "e": -69.99099,
+        "w": -70.675693
+      },
+      "overlay": "overlays/CGCH_GB_183_184_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_183_184_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0
+    },
+    {
+      "id": "CGCH_GB_187_188_TextoyMapa",
+      "titulo": "Cartas Blanco Encalada y Pampa Remiendos",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2016",
+      "escala": "1:100.000",
+      "informe": "GB-187-188",
+      "bounds": {
+        "n": -23.99404,
+        "s": -24.509376,
+        "e": -69.990158,
+        "w": -70.678615
+      },
+      "overlay": "overlays/CGCH_GB_187_188_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_187_188_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0
+    },
+    {
+      "id": "CGCH_GB_207_TextoyMapa",
+      "titulo": "Geología del área Quehuita-Chela",
+      "region": "Regiones de Tarapacá y Antofagasta",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2019",
+      "escala": "1:100.000",
+      "informe": "GB-207",
+      "bounds": {
+        "n": -20.992965,
+        "s": -21.508948,
+        "e": -68.488256,
+        "w": -69.012237
+      },
+      "overlay": "overlays/CGCH_GB_207_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_207_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0
     }
   ]
 }
