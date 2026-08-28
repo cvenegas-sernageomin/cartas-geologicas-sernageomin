@@ -863,10 +863,10 @@
       "escala": "1:100.000",
       "informe": "GB-217-218",
       "bounds": {
-        "n": -18.5,
-        "s": -19.0,
-        "e": -68.833333,
-        "w": -69.5
+        "n": -18.490834,
+        "s": -19.008824,
+        "e": -68.789327,
+        "w": -69.510395
       },
       "overlay": "overlays/CGCH_GB_217_218_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_217_218_TextoyMapa_leyenda.jpg",
