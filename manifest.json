@@ -343,10 +343,10 @@
       "escala": "1:50.000",
       "informe": "GB-132",
       "bounds": {
-        "n": -18.083333,
-        "s": -18.25,
-        "e": -69.083333,
-        "w": -69.333333
+        "n": -18.062137,
+        "s": -18.254339,
+        "e": -69.045487,
+        "w": -69.388149
       },
       "overlay": "overlays/CGCH_GB_132_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_132_TextoyMapa_leyenda.jpg",
