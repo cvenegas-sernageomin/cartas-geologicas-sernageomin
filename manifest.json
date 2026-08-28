@@ -1,6 +1,6 @@
 {
   "version": "2026-08-28",
-  "nota": "Piloto Maule (9 mapas, 2026-08-25) + 47 cartas adicionales del proyecto Georef (2026-08-28): georreferenciadas automaticamente con verificacion 'ok' (aspecto_raro excluido), con leyenda cuando existe. Titulos de las cartas CGCH_GB_*/CGCH_* son codigos de catalogo, NO verificados contra el nombre oficial SERNAGEOMIN.",
+  "nota": "Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220).",
   "mapas": [
     {
       "id": "geo_F19_pichibelco",
@@ -175,12 +175,12 @@
     },
     {
       "id": "CGCH_GB_121_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-121 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Carta Altamira",
+      "region": "Regiones de Antofagasta y Atacama",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2010",
+      "escala": "1:100.000",
       "informe": "GB-121",
       "bounds": {
         "n": -25.503688,
@@ -190,16 +190,17 @@
       },
       "overlay": "overlays/CGCH_GB_121_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_121_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Stephen J. Matthews, Felipe Espinoza G., Paula Cornejo P., Carlos Venegas B."
     },
     {
       "id": "CGCH_GB_122_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-122 (código catálogo, título sin verificar)",
-      "region": "Araucanía",
+      "titulo": "Geología del área Temuco-Nueva Imperial",
+      "region": "Región de la Araucanía",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2010",
+      "escala": "1:100.000",
       "informe": "GB-122",
       "bounds": {
         "n": -38.50396,
@@ -209,16 +210,17 @@
       },
       "overlay": "overlays/CGCH_GB_122_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_122_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Mauricio Mella B., David Quiroz P."
     },
     {
       "id": "CGCH_GB_123_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-123 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Geología del Complejo Volcánico Lastarria",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2010",
+      "escala": "1:25.000",
       "informe": "GB-123",
       "bounds": {
         "n": -25.070369,
@@ -228,16 +230,17 @@
       },
       "overlay": "overlays/CGCH_GB_123_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_123_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "José A. Naranjo S."
     },
     {
       "id": "CGCH_GB_125_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-125 (código catálogo, título sin verificar)",
-      "region": "Aysén",
+      "titulo": "Geología del área Bahía Murta-Cerro Sin Nombre",
+      "region": "Región Aisén del General Carlos Ibáñez del Campo",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2010",
+      "escala": "1:100.000",
       "informe": "GB-125",
       "bounds": {
         "n": -46.002877,
@@ -247,16 +250,17 @@
       },
       "overlay": "overlays/CGCH_GB_125_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_125_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "David Quiroz P., Mauricio Belmar U."
     },
     {
       "id": "CGCH_GB_126_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-126 (código catálogo, título sin verificar)",
-      "region": "Los Lagos",
+      "titulo": "Geología del Volcán Osorno",
+      "region": "Región de Los Lagos",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2010",
+      "escala": "1:50.000",
       "informe": "GB-126",
       "bounds": {
         "n": -41.020695,
@@ -266,16 +270,17 @@
       },
       "overlay": "overlays/CGCH_GB_126_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_126_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Hugo Moreno R., Luis Lara P., Gabriel Orozco L."
     },
     {
       "id": "CGCH_GB_127_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-127 (código catálogo, título sin verificar)",
-      "region": "Aysén",
+      "titulo": "Geología del área oriental de la Hoja Puerto Cisnes",
+      "region": "Región Aisén del General Carlos Ibáñez del Campo",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2011",
+      "escala": "1:250.000",
       "informe": "GB-127",
       "bounds": {
         "n": -44.0,
@@ -285,16 +290,17 @@
       },
       "overlay": "overlays/CGCH_GB_127_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_127_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Rita De la Cruz S., Joaquín Cortés C."
     },
     {
       "id": "CGCH_GB_128_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-128 (código catálogo, título sin verificar)",
-      "region": "Araucanía",
+      "titulo": "Geología del área Villarrica-Huiscapi",
+      "region": "Regiones de La Araucanía y de Los Ríos",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2011",
+      "escala": "1:100.000",
       "informe": "GB-128",
       "bounds": {
         "n": -38.505775,
@@ -304,16 +310,17 @@
       },
       "overlay": "overlays/CGCH_GB_128_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_128_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Carolina Jara I., Hugo Moreno R., Mauricio Mella B., Paul Duhart O."
     },
     {
       "id": "CGCH_GB_129_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-129 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Carta Catalina",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2011",
+      "escala": "1:100.000",
       "informe": "GB-129",
       "bounds": {
         "n": -25.0,
@@ -323,16 +330,17 @@
       },
       "overlay": "overlays/CGCH_GB_129_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_129_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Felipe Espinoza G., Stephen J. Matthews, Paula Cornejo P., Carlos Venegas B."
     },
     {
       "id": "CGCH_GB_132_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-132 (código catálogo, título sin verificar)",
-      "region": "Arica y Parinacota",
+      "titulo": "Geología del Volcán Parinacota (versión corregida)",
+      "region": "Región de Arica y Parinacota",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2012",
+      "escala": "1:50.000",
       "informe": "GB-132",
       "bounds": {
         "n": -18.083333,
@@ -342,17 +350,18 @@
       },
       "overlay": "overlays/CGCH_GB_132_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_132_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Jorge Clavero R., R. Steve J. Sparks, Edmundo Polanco V."
     },
     {
       "id": "CGCH_GB_133_134_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-133_134 (código catálogo, título sin verificar)",
-      "region": "Coquimbo",
+      "titulo": "Geología del área Carrizalillo-El Tofo",
+      "region": "Regiones de Atacama y Coquimbo",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-133_134",
+      "anio": "2012",
+      "escala": "1:100.000",
+      "informe": "GB-133-134",
       "bounds": {
         "n": -29.0,
         "s": -29.5,
@@ -361,17 +370,18 @@
       },
       "overlay": "overlays/CGCH_GB_133_134_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_133_134_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Christian Creixell T., Miguel Ortiz L., Carlos Arévalo V."
     },
     {
       "id": "CGCH_GB_135_136_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-135_136 (código catálogo, título sin verificar)",
-      "region": "Arica y Parinacota",
+      "titulo": "Cartas Visviri y Villa Industrial",
+      "region": "Región de Arica y Parinacota",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-135_136",
+      "anio": "2012",
+      "escala": "1:100.000",
+      "informe": "GB-135-136",
       "bounds": {
         "n": -17.6045,
         "s": -18.922,
@@ -380,35 +390,17 @@
       },
       "overlay": "overlays/CGCH_GB_135_136_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_135_136_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
-    },
-    {
-      "id": "CGCH_GB_137_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-137 (código catálogo, título sin verificar)",
-      "region": "Los Ríos",
-      "categoria": "geologia_basica",
-      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-137",
-      "bounds": {
-        "n": -39.096669,
-        "s": -40.903331,
-        "e": -70.776,
-        "w": -73.974812
-      },
-      "overlay": "overlays/CGCH_GB_137_TextoyMapa.webp",
-      "leyenda": "leyendas/CGCH_GB_137_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "M. García, J. Clavero, M. Gardeweg"
     },
     {
       "id": "CGCH_GB_138_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-138 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Carta Los Vientos",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2012",
+      "escala": "1:100.000",
       "informe": "GB-138",
       "bounds": {
         "n": -24.5,
@@ -418,17 +410,18 @@
       },
       "overlay": "overlays/CGCH_GB_138_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_138_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Felipe Espinoza G., Stephen J. Matthews, Paula Cornejo P."
     },
     {
       "id": "CGCH_GB_139_140_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-139_140 (código catálogo, título sin verificar)",
-      "region": "Atacama",
+      "titulo": "Geología de las áreas Laguna Wheelwright y Paso San Francisco",
+      "region": "Región de Atacama",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-139_140",
+      "anio": "2012",
+      "escala": "1:100.000",
+      "informe": "GB-139-140",
       "bounds": {
         "n": -26.5,
         "s": -27.0,
@@ -437,17 +430,18 @@
       },
       "overlay": "overlays/CGCH_GB_139_140_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_139_140_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Jorge Clavero R., Constantino Mpodozis M., Moyra Gardeweg P., Millarca Valenzuela P."
     },
     {
       "id": "CGCH_GB_141_142_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-141_142 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Cartas Tocopilla y María Elena",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-141_142",
+      "anio": "2012",
+      "escala": "1:100.000",
+      "informe": "GB-141-142",
       "bounds": {
         "n": -22.0,
         "s": -22.5,
@@ -456,16 +450,17 @@
       },
       "overlay": "overlays/CGCH_GB_141_142_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_141_142_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Eduardo Medina T., Arturo Jensen I., Hans Niemeyer R., Hans-Gerhard Wilke, José Cembrano P., Marcelo García G., Rodrigo Riquelme S., Sergio Espinoza R., Guillermo Chong D."
     },
     {
       "id": "CGCH_GB_144_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-144 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Carta Sierra Mariposa",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2012",
+      "escala": "1:100.000",
       "informe": "GB-144",
       "bounds": {
         "n": -23.5,
@@ -475,16 +470,17 @@
       },
       "overlay": "overlays/CGCH_GB_144_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_144_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Joaquín Cortés C."
     },
     {
       "id": "CGCH_GB_145_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-145 (código catálogo, título sin verificar)",
-      "region": "Atacama",
+      "titulo": "Carta Laguna del Negro Francisco",
+      "region": "Región de Atacama",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2012",
+      "escala": "1:100.000",
       "informe": "GB-145",
       "bounds": {
         "n": -27.0,
@@ -494,36 +490,18 @@
       },
       "overlay": "overlays/CGCH_GB_145_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_145_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
-    },
-    {
-      "id": "CGCH_GB_161_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-161 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
-      "categoria": "geologia_basica",
-      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-161",
-      "bounds": {
-        "n": -22.0,
-        "s": -25.979374,
-        "e": -68.0,
-        "w": -70.734875
-      },
-      "overlay": "overlays/CGCH_GB_161_TextoyMapa.webp",
-      "leyenda": "leyendas/CGCH_GB_161_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Constantino Mpodozis M., Sergio Iriarte D., Moyra Gardeweg P., Millarca Valenzuela P."
     },
     {
       "id": "CGCH_GB_162_163_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-162_163 (código catálogo, título sin verificar)",
-      "region": "Tarapacá",
+      "titulo": "Cartas Iquique y Pozo Almonte",
+      "region": "Región de Tarapacá",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-162_163",
+      "anio": "2013",
+      "escala": "1:100.000",
+      "informe": "GB-162-163",
       "bounds": {
         "n": -20.0,
         "s": -20.5,
@@ -532,17 +510,18 @@
       },
       "overlay": "overlays/CGCH_GB_162_163_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_162_163_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Paulina Vásquez I., Fernando Sepúlveda V."
     },
     {
       "id": "CGCH_GB_164_165_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-164_165 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Cartas Bahía Isla Blanca y Taltal",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-164_165",
+      "anio": "2013",
+      "escala": "1:100.000",
+      "informe": "GB-164-165",
       "bounds": {
         "n": -25.0,
         "s": -25.5,
@@ -551,16 +530,17 @@
       },
       "overlay": "overlays/CGCH_GB_164_165_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_164_165_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "José Escribano A., Paola Martínez E., Jan Domagala, Maxime Padel, Mauricio Espinoza V., Rodrigo Jorquera B., Juan Pablo Contreras F., Rita De La Cruz S., Mauricio Calderón N."
     },
     {
       "id": "CGCH_GB_169_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-169 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Carta Cerro del Pingo",
+      "region": "Regiones de Antofagasta y de Atacama",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2014",
+      "escala": "1:100.000",
       "informe": "GB-169",
       "bounds": {
         "n": -25.5,
@@ -570,17 +550,18 @@
       },
       "overlay": "overlays/CGCH_GB_169_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_169_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Mauricio Espinoza V., Juan Pablo Contreras F., Rodrigo Jorquera B., Rita De La Cruz S., Stefan Kraus, Cristián Ramírez S., José A. Naranjo S."
     },
     {
       "id": "CGCH_GB_175_176_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-175_176 (código catálogo, título sin verificar)",
-      "region": "Coquimbo",
+      "titulo": "Geología de las áreas Río Chollay-Matancilla y Cajón del Encierro",
+      "region": "Regiones de Atacama y Coquimbo",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-175_176",
+      "anio": "2015",
+      "escala": "1:100.000",
+      "informe": "GB-175-176",
       "bounds": {
         "n": -29.0,
         "s": -29.5,
@@ -589,16 +570,17 @@
       },
       "overlay": "overlays/CGCH_GB_175_176_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_175_176_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Miguel Ortiz L., Roberto N. Merino G."
     },
     {
       "id": "CGCH_GB_182_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-182 (código catálogo, título sin verificar)",
-      "region": "Tarapacá",
+      "titulo": "Geología del área Pampa Lirima-Cancosa",
+      "region": "Región de Tarapacá",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2016",
+      "escala": "1:100.000",
       "informe": "GB-182",
       "bounds": {
         "n": -19.5,
@@ -608,36 +590,18 @@
       },
       "overlay": "overlays/CGCH_GB_182_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_182_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
-    },
-    {
-      "id": "CGCH_GB_183_184_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-183_184 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
-      "categoria": "geologia_basica",
-      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-183_184",
-      "bounds": {
-        "n": -22.009625,
-        "s": -26.0,
-        "e": -68.0,
-        "w": -70.75
-      },
-      "overlay": "overlays/CGCH_GB_183_184_TextoyMapa.webp",
-      "leyenda": "leyendas/CGCH_GB_183_184_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Daniel Sellés M., Moyra Gardeweg P., Nicolás Garibaldi M."
     },
     {
       "id": "CGCH_GB_185_186_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-185_186 (código catálogo, título sin verificar)",
-      "region": "Atacama",
+      "titulo": "Geología de las áreas Cerro Panteón de Aliste y Cerro Colorado",
+      "region": "Región de Atacama",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-185_186",
+      "anio": "2016",
+      "escala": "1:100.000",
+      "informe": "GB-185-186",
       "bounds": {
         "n": -26.0,
         "s": -26.5,
@@ -646,35 +610,17 @@
       },
       "overlay": "overlays/CGCH_GB_185_186_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_185_186_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
-    },
-    {
-      "id": "CGCH_GB_187_188_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-187_188 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
-      "categoria": "geologia_basica",
-      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-187_188",
-      "bounds": {
-        "n": -22.0,
-        "s": -26.0,
-        "e": -68.0,
-        "w": -70.75
-      },
-      "overlay": "overlays/CGCH_GB_187_188_TextoyMapa.webp",
-      "leyenda": "leyendas/CGCH_GB_187_188_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "José Antonio Naranjo S., Cristián Ramírez S., Víctor Villa C."
     },
     {
       "id": "CGCH_GB_189_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-189 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Carta Augusta Victoria",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2017",
+      "escala": "1:100.000",
       "informe": "GB-189",
       "bounds": {
         "n": -24.0,
@@ -684,17 +630,18 @@
       },
       "overlay": "overlays/CGCH_GB_189_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_189_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Natalia Astudillo L., Rodolfo Ferrando U., Diego Montecino J., Felipe Espinoza G., Carlos Venegas B., Stephen J. Matthews, Paula Cornejo P., Carlos Arévalo V."
     },
     {
       "id": "CGCH_GB_192_193_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-192_193 (código catálogo, título sin verificar)",
-      "region": "Coquimbo",
+      "titulo": "Geología de las áreas Guanta-Los Cuartitos y Paso de Vacas Heladas",
+      "region": "Regiones de Atacama y Coquimbo",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-192_193",
+      "anio": "2017",
+      "escala": "1:100.000",
+      "informe": "GB-192-193",
       "bounds": {
         "n": -29.5,
         "s": -30.0,
@@ -703,16 +650,17 @@
       },
       "overlay": "overlays/CGCH_GB_192_193_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_192_193_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Ismael Murillo R., Ricardo Velásquez H., Christian Creixell T."
     },
     {
       "id": "CGCH_GB_198_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-198 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Carta Sierra Gorda",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2018",
+      "escala": "1:100.000",
       "informe": "GB-198",
       "bounds": {
         "n": -22.5,
@@ -722,16 +670,17 @@
       },
       "overlay": "overlays/CGCH_GB_198_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_198_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Paul Duhart O., Jorge Muñoz B., David Quiroz P., Andrés Mestre M., Gabriel Varas M."
     },
     {
       "id": "CGCH_GB_199_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-199 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Carta Calama",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2018",
+      "escala": "1:100.000",
       "informe": "GB-199",
       "bounds": {
         "n": -22.0,
@@ -741,16 +690,17 @@
       },
       "overlay": "overlays/CGCH_GB_199_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_199_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Andrew J. Tomlinson, Nicolás Blanco P., John H. Dilles, Víctor Maksaev J., Marco Ladino U."
     },
     {
       "id": "CGCH_GB_200_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-200 (código catálogo, título sin verificar)",
-      "region": "Atacama",
+      "titulo": "Geología del área Cerro Cadillal-Cerro Jotabeche",
+      "region": "Región de Atacama",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2018",
+      "escala": "1:100.000",
       "informe": "GB-200",
       "bounds": {
         "n": -27.5,
@@ -760,16 +710,17 @@
       },
       "overlay": "overlays/CGCH_GB_200_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_200_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Constantino Mpodozis M., Jorge Clavero R., Rodrigo Quiroga C., Bárbara Droguett V., Rodrigo Arcos R."
     },
     {
       "id": "CGCH_GB_201_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-201 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Geología del Volcán San Pedro",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2019",
+      "escala": "1:50.000",
       "informe": "GB-201",
       "bounds": {
         "n": -21.75,
@@ -779,17 +730,18 @@
       },
       "overlay": "overlays/CGCH_GB_201_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_201_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Daniel Bertin U., Álvaro Amigo R."
     },
     {
       "id": "CGCH_GB_202_203_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-202_203 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Geología de las áreas Salar Punta Negra y Cerro Sur Bayo",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-202_203",
+      "anio": "2019",
+      "escala": "1:100.000",
+      "informe": "GB-202-203",
       "bounds": {
         "n": -24.5,
         "s": -25.0,
@@ -798,17 +750,18 @@
       },
       "overlay": "overlays/CGCH_GB_202_203_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_202_203_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Víctor Villa C., Cristián Ramírez S., Rodolfo Ferrando U., Diego Montecino J., Marcos Lienlaf L."
     },
     {
       "id": "CGCH_GB_204_205_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-204_205 (código catálogo, título sin verificar)",
-      "region": "Atacama",
+      "titulo": "Geología de las áreas Nevado Ojos del Salado y Cerro El Fraile",
+      "region": "Región de Atacama",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-204_205",
+      "anio": "2019",
+      "escala": "1:100.000",
+      "informe": "GB-204-205",
       "bounds": {
         "n": -27.0,
         "s": -27.5,
@@ -817,16 +770,17 @@
       },
       "overlay": "overlays/CGCH_GB_204_205_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_204_205_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "José Antonio Naranjo S., Francisco Hevia C., Rodrigo Arcos R., Edmundo Polanco V."
     },
     {
       "id": "CGCH_GB_206_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-206 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Carta Pedro de Valdivia",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2019",
+      "escala": "1:100.000",
       "informe": "GB-206",
       "bounds": {
         "n": -22.5,
@@ -836,35 +790,17 @@
       },
       "overlay": "overlays/CGCH_GB_206_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_206_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
-    },
-    {
-      "id": "CGCH_GB_207_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-207 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
-      "categoria": "geologia_basica",
-      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-207",
-      "bounds": {
-        "n": -20.0,
-        "s": -24.0,
-        "e": -67.0,
-        "w": -72.0
-      },
-      "overlay": "overlays/CGCH_GB_207_TextoyMapa.webp",
-      "leyenda": "leyendas/CGCH_GB_207_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Luis Baeza A., Natalia Astudillo L."
     },
     {
       "id": "CGCH_GB_210_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-210 (código catálogo, título sin verificar)",
-      "region": "Los Ríos",
+      "titulo": "Geología del área Río Bueno-Paillaco",
+      "region": "Regiones de Los Ríos y Los Lagos",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2020",
+      "escala": "1:100.000",
       "informe": "GB-210",
       "bounds": {
         "n": -40.0,
@@ -874,17 +810,18 @@
       },
       "overlay": "overlays/CGCH_GB_210_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_210_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "David Quiroz P., Mauricio Mella B., Hugo Moreno R., Paul Duhart O., Felipe Carrasco R., Carolina Miralles G."
     },
     {
       "id": "CGCH_GB_211_212_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-211_212 (código catálogo, título sin verificar)",
-      "region": "Coquimbo",
+      "titulo": "Geología de las áreas Pisco Elqui y Paso del Agua Negra",
+      "region": "Región de Coquimbo",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-211_212",
+      "anio": "2021",
+      "escala": "1:100.000",
+      "informe": "GB-211-212",
       "bounds": {
         "n": -30.0,
         "s": -30.5,
@@ -893,36 +830,18 @@
       },
       "overlay": "overlays/CGCH_GB_211_212_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_211_212_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
-    },
-    {
-      "id": "CGCH_GB_214_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-214 (código catálogo, título sin verificar)",
-      "region": "Maule",
-      "categoria": "geologia_basica",
-      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-214",
-      "bounds": {
-        "n": -35.5,
-        "s": -36.0,
-        "e": -72.0,
-        "w": -72.5
-      },
-      "overlay": "overlays/CGCH_GB_214_TextoyMapa.webp",
-      "leyenda": "leyendas/CGCH_GB_214_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Ricardo Velásquez H., Felipe Coloma B., Ismael Murillo R., Roberto Merino G., Miguel Ortiz L."
     },
     {
       "id": "CGCH_GB_215_216_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-215_216 (código catálogo, título sin verificar)",
-      "region": "Antofagasta",
+      "titulo": "Geología de las áreas Cupo-Toconce y Cerros de Tocorpuri",
+      "region": "Región de Antofagasta",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-215_216",
+      "anio": "2023",
+      "escala": "1:100.000",
+      "informe": "GB-215-216",
       "bounds": {
         "n": -22.0,
         "s": -22.5,
@@ -931,17 +850,18 @@
       },
       "overlay": "overlays/CGCH_GB_215_216_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_215_216_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Pamela Álvarez, Maisa Tunik, Laura Giambiagi, Carolina Rodríguez S."
     },
     {
       "id": "CGCH_GB_217_218_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-217_218 (código catálogo, título sin verificar)",
-      "region": "Arica y Parinacota",
+      "titulo": "Geología de las áreas Surire-Tignamar y Quilhuiri",
+      "region": "Regiones de Arica y Parinacota y de Tarapacá",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-217_218",
+      "anio": "2023",
+      "escala": "1:100.000",
+      "informe": "GB-217-218",
       "bounds": {
         "n": -18.5,
         "s": -19.0,
@@ -950,16 +870,17 @@
       },
       "overlay": "overlays/CGCH_GB_217_218_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_217_218_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Bárbara Droguett V., Jorge Clavero R., Pamela Álvarez, Valentina Ramírez L."
     },
     {
       "id": "CGCH_GB_219_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-219 (código catálogo, título sin verificar)",
-      "region": "Biobío",
+      "titulo": "Geología del Complejo Volcánico Lonquimay-Tolguaca",
+      "region": "Regiones del Biobío y de La Araucanía",
       "categoria": "geologia_basica",
       "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
+      "anio": "2023",
+      "escala": "1:50.000",
       "informe": "GB-219",
       "bounds": {
         "n": -38.216667,
@@ -969,36 +890,18 @@
       },
       "overlay": "overlays/CGCH_GB_219_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_219_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
-    },
-    {
-      "id": "CGCH_GB_220_TextoyMapa",
-      "titulo": "Carta Geológica de Chile — Serie Geología Básica GB-220 (código catálogo, título sin verificar)",
-      "region": "Maule",
-      "categoria": "geologia_basica",
-      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
-      "anio": "",
-      "escala": "",
-      "informe": "GB-220",
-      "bounds": {
-        "n": -35.5,
-        "s": -36.0,
-        "e": -71.0,
-        "w": -71.5
-      },
-      "overlay": "overlays/CGCH_GB_220_TextoyMapa.webp",
-      "leyenda": "leyendas/CGCH_GB_220_TextoyMapa_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Hugo Moreno R., José A. Naranjo S., Edmundo Polanco V."
     },
     {
       "id": "Cerros_de_Cantaritos_Laguna_Chica",
-      "titulo": "Carta Cerros de Cantaritos Laguna Chica",
-      "region": "Atacama",
+      "titulo": "Geología del área Cerros de Cantaritos-Laguna Chica",
+      "region": "Región de Atacama",
       "categoria": "geologia",
-      "fuente": "SERNAGEOMIN",
-      "anio": "",
-      "escala": "",
-      "informe": "",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2016",
+      "escala": "1:100.000",
+      "informe": "GB-181",
       "bounds": {
         "n": -28.5,
         "s": -29.0,
@@ -1007,17 +910,18 @@
       },
       "overlay": "overlays/Cerros_de_Cantaritos_Laguna_Chica.webp",
       "leyenda": "leyendas/Cerros_de_Cantaritos_Laguna_Chica_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Esteban Salazar P., Felipe Coloma B."
     },
     {
       "id": "El_Transito_Lagunillas",
-      "titulo": "Carta El Transito Lagunillas",
-      "region": "Atacama",
+      "titulo": "Geología del área El Tránsito-Lagunillas",
+      "region": "Región de Atacama",
       "categoria": "geologia",
-      "fuente": "SERNAGEOMIN",
-      "anio": "",
-      "escala": "",
-      "informe": "",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2013",
+      "escala": "1:100.000",
+      "informe": "GB-149",
       "bounds": {
         "n": -28.5,
         "s": -29.0,
@@ -1026,17 +930,18 @@
       },
       "overlay": "overlays/El_Transito_Lagunillas.webp",
       "leyenda": "leyendas/El_Transito_Lagunillas_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Esteban Salazar P., Felipe Coloma B., Christian Creixell T."
     },
     {
       "id": "Ovalle_y_Peña_Blanca",
-      "titulo": "Carta Ovalle y Peña Blanca",
-      "region": "Coquimbo",
+      "titulo": "Geología de las áreas Ovalle y Peña Blanca",
+      "region": "Región de Coquimbo",
       "categoria": "geologia",
-      "fuente": "SERNAGEOMIN",
-      "anio": "",
-      "escala": "",
-      "informe": "",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2020",
+      "escala": "1:100.000",
+      "informe": "GB-208-209",
       "bounds": {
         "n": -30.5,
         "s": -31.0,
@@ -1045,26 +950,8 @@
       },
       "overlay": "overlays/Ovalle_y_Peña_Blanca.webp",
       "leyenda": "leyendas/Ovalle_y_Peña_Blanca_leyenda.jpg",
-      "opacidad": 1.0
-    },
-    {
-      "id": "Punta_Posallaves_Sierra_Vicuña_Mackenna",
-      "titulo": "Carta Punta Posallaves Sierra Vicuña Mackenna",
-      "region": "Antofagasta",
-      "categoria": "geologia",
-      "fuente": "SERNAGEOMIN",
-      "anio": "",
-      "escala": "",
-      "informe": "",
-      "bounds": {
-        "n": -22.017876,
-        "s": -25.892747,
-        "e": -68.026125,
-        "w": -70.705312
-      },
-      "overlay": "overlays/Punta_Posallaves_Sierra_Vicuña_Mackenna.webp",
-      "leyenda": null,
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "autor": "Felipe Coloma B., Javier Álvarez A., Christian Creixell T., Carlos Emparán C., Esteban Salazar P., Mauricio Calderón N."
     }
   ]
 }
