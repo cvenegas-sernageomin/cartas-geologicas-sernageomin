@@ -463,10 +463,10 @@
       "escala": "1:100.000",
       "informe": "GB-144",
       "bounds": {
-        "n": -23.5,
-        "s": -24.0,
-        "e": -68.5,
-        "w": -69.0
+        "n": -23.505392,
+        "s": -24.005392,
+        "e": -68.500000,
+        "w": -69.000000
       },
       "overlay": "overlays/CGCH_GB_144_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_144_TextoyMapa_leyenda.jpg",
@@ -1020,10 +1020,10 @@
       "escala": "1:100.000",
       "informe": "GB-187-188",
       "bounds": {
-        "n": -23.99404,
+        "n": -23.994040,
         "s": -24.509376,
-        "e": -69.990158,
-        "w": -70.678615
+        "e": -70.001035,
+        "w": -70.689492
       },
       "overlay": "overlays/CGCH_GB_187_188_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_187_188_TextoyMapa_leyenda.jpg",
