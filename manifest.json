@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-28",
-  "nota": "Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220). Re-georreferenciadas a mano (2026-08-28) las 5 que se habian excluido por bounds erroneos: se detecto que la hoja compuesta trae mini-mapas de referencia (mapa de ubicacion, trabajos anteriores, cuadro de situacion) con su PROPIA grilla de coordenadas dentro del mismo rango de valores plausibles que el mapa principal, confundiendo el ajuste automatico; se filtraron las etiquetas espurias a mano por posicion en pixeles usando las coordenadas del propio PDF fuente (texto vectorial, no OCR) -- error final del ajuste bajo 135 m en las 5, contra 100+ km antes.",
+  "version": "2026-09-04",
+  "nota": "Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220). Re-georreferenciadas a mano (2026-08-28) las 5 que se habian excluido por bounds erroneos: se detecto que la hoja compuesta trae mini-mapas de referencia (mapa de ubicacion, trabajos anteriores, cuadro de situacion) con su PROPIA grilla de coordenadas dentro del mismo rango de valores plausibles que el mapa principal, confundiendo el ajuste automatico; se filtraron las etiquetas espurias a mano por posicion en pixeles usando las coordenadas del propio PDF fuente (texto vectorial, no OCR) -- error final del ajuste bajo 135 m en las 5, contra 100+ km antes. | 2026-09-04: correccion de georreferenciacion en 10 cartas (13 ejes), medida contra la grilla UTM impresa en el datum que DECLARA cada hoja (cajetin \"Referencia geodesica\" del PDF fuente). Se corrigio la causa de fondo: 9 hojas se habian ajustado con un datum distinto al declarado, lo que las dejaba corridas ~185 m en E y/o ~375 m en N. Solo se corrigio un eje cuando su medicion era confiable (desviacion estandar <= 40 m sobre >= 4 lineas de grilla); los ejes cuya grilla no se puede leer quedaron sin tocar y estan derivados a revision manual.",
   "mapas": [
     {
       "id": "geo_F19_pichibelco",
@@ -225,8 +225,8 @@
       "bounds": {
         "n": -25.070369,
         "s": -25.237039,
-        "e": -68.434221,
-        "w": -68.584233
+        "e": -68.436055,
+        "w": -68.586067
       },
       "overlay": "overlays/CGCH_GB_123_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_123_TextoyMapa_leyenda.jpg",
@@ -263,8 +263,8 @@
       "escala": "1:50.000",
       "informe": "GB-126",
       "bounds": {
-        "n": -41.019724,
-        "s": -41.219735,
+        "n": -41.023005,
+        "s": -41.223016,
         "e": -72.385872,
         "w": -72.685910
       },
@@ -425,8 +425,8 @@
       "bounds": {
         "n": -26.490683,
         "s": -27.009646,
-        "e": -68.240231,
-        "w": -69.013048
+        "e": -68.238376,
+        "w": -69.011193
       },
       "overlay": "overlays/CGCH_GB_139_140_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_139_140_TextoyMapa_leyenda.jpg",
@@ -503,10 +503,10 @@
       "escala": "1:100.000",
       "informe": "GB-162-163",
       "bounds": {
-        "n": -20.0,
-        "s": -20.5,
-        "e": -69.5,
-        "w": -70.25
+        "n": -20.000000,
+        "s": -20.500000,
+        "e": -69.500395,
+        "w": -70.250395
       },
       "overlay": "overlays/CGCH_GB_162_163_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_162_163_TextoyMapa_leyenda.jpg",
@@ -523,8 +523,8 @@
       "escala": "1:100.000",
       "informe": "GB-164-165",
       "bounds": {
-        "n": -25.000000,
-        "s": -25.500000,
+        "n": -25.002458,
+        "s": -25.502458,
         "e": -70.004324,
         "w": -70.587657
       },
@@ -583,10 +583,10 @@
       "escala": "1:100.000",
       "informe": "GB-182",
       "bounds": {
-        "n": -19.495376,
-        "s": -20.012789,
-        "e": -68.441959,
-        "w": -69.011472
+        "n": -19.491940,
+        "s": -20.009353,
+        "e": -68.440192,
+        "w": -69.009705
       },
       "overlay": "overlays/CGCH_GB_182_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_182_TextoyMapa_leyenda.jpg",
@@ -603,10 +603,10 @@
       "escala": "1:100.000",
       "informe": "GB-185-186",
       "bounds": {
-        "n": -25.995975,
-        "s": -26.495975,
-        "e": -68.417893,
-        "w": -69.001226
+        "n": -25.992593,
+        "s": -26.492593,
+        "e": -68.416053,
+        "w": -68.999386
       },
       "overlay": "overlays/CGCH_GB_185_186_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_185_186_TextoyMapa_leyenda.jpg",
@@ -703,10 +703,10 @@
       "escala": "1:100.000",
       "informe": "GB-200",
       "bounds": {
-        "n": -27.5,
-        "s": -28.0,
-        "e": -69.0,
-        "w": -69.5
+        "n": -27.493658,
+        "s": -27.993658,
+        "e": -68.997997,
+        "w": -69.497997
       },
       "overlay": "overlays/CGCH_GB_200_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_200_TextoyMapa_leyenda.jpg",
@@ -783,10 +783,10 @@
       "escala": "1:100.000",
       "informe": "GB-206",
       "bounds": {
-        "n": -22.5,
-        "s": -23.0,
-        "e": -69.5,
-        "w": -70.0
+        "n": -22.499527,
+        "s": -22.999527,
+        "e": -69.500000,
+        "w": -70.000000
       },
       "overlay": "overlays/CGCH_GB_206_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_206_TextoyMapa_leyenda.jpg",
@@ -943,10 +943,10 @@
       "escala": "1:100.000",
       "informe": "GB-208-209",
       "bounds": {
-        "n": -30.5,
-        "s": -31.0,
-        "e": -71.0,
-        "w": -71.75
+        "n": -30.500000,
+        "s": -31.000000,
+        "e": -70.997552,
+        "w": -71.747552
       },
       "overlay": "overlays/Ovalle_y_Peña_Blanca.webp",
       "leyenda": "leyendas/Ovalle_y_Peña_Blanca_leyenda.jpg",
