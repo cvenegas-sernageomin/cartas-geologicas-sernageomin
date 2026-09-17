@@ -38,3 +38,22 @@ escala automáticamente a cientos de hojas).
 - `leyendas/<id>.jpg` — leyenda/simbología, solo para las 2 Cartas que la traen aparte
   (Pichibelco-Cauquenes, Tinguiririca-Teno); el resto no tiene leyenda separada en el
   origen (se puede consultar el informe PDF completo en su Carta correspondiente).
+
+## Formato de entrega para cartas nuevas
+
+Al colaborador que georreferencia una carta nueva se le pide **GeoTIFF con CRS declarado**
+(EPSG:4326 u otro — el pipeline de conversión reproyecta los bounds), **no** un tile archive
+(MBTiles/PMTiles).
+
+El GeoTIFF de entrada nunca se publica ni llega a la PWA: se convierte a `overlays/<id>.webp`
+con [`geotiff2webp.py`](../../opencode/proyectos/Georef/tools/geotiff2webp.py) y solo ese
+WebP es lo que pesa para el teléfono del geólogo. Pedir un tile archive de entrada sería peor,
+no más liviano: obligaría a reensamblar un raster único antes de poder usar el pipeline
+existente (recorte de margen blanco, recálculo proporcional de bounds), y sumaría una segunda
+compresión con pérdida sobre tiles que ya suelen venir comprimidos — topando el detalle al
+zoom máximo que haya elegido el colaborador al tilear, en vez de la resolución nativa del
+escaneo.
+
+Si algún día se sirve PMTiles a la PWA en vez de WebP, esa es una decisión de *salida*
+independiente de esta — se seguiría tileando desde GeoTIFF de entrada, no desde un tile
+archive que mande el colaborador.
