@@ -1039,10 +1039,10 @@
       "escala": "1:100.000",
       "informe": "GB-207",
       "bounds": {
-        "n": -20.992965,
-        "s": -21.508948,
-        "e": -68.503776,
-        "w": -69.027757
+        "n": -21.000290,
+        "s": -21.499710,
+        "e": -68.500231,
+        "w": -68.999769
       },
       "overlay": "overlays/CGCH_GB_207_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_207_TextoyMapa_leyenda.jpg",
