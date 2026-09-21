@@ -503,10 +503,10 @@
       "escala": "1:100.000",
       "informe": "GB-162-163",
       "bounds": {
-        "n": -20.000000,
-        "s": -20.500000,
-        "e": -69.500395,
-        "w": -70.250395
+        "n": -19.99984,
+        "s": -20.49907,
+        "e": -69.49884,
+        "w": -70.25468
       },
       "overlay": "overlays/CGCH_GB_162_163_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_162_163_TextoyMapa_leyenda.jpg",
