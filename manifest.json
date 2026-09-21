@@ -203,10 +203,10 @@
       "escala": "1:100.000",
       "informe": "GB-122",
       "bounds": {
-        "n": -38.50396,
-        "s": -39.003983,
-        "e": -72.502459,
-        "w": -73.002526
+        "n": -38.491485,
+        "s": -39.016381,
+        "e": -72.465097,
+        "w": -73.020802
       },
       "overlay": "overlays/CGCH_GB_122_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_122_TextoyMapa_leyenda.jpg",
@@ -223,10 +223,10 @@
       "escala": "1:25.000",
       "informe": "GB-123",
       "bounds": {
-        "n": -25.070369,
-        "s": -25.237039,
-        "e": -68.436055,
-        "w": -68.586067
+        "n": -25.068194,
+        "s": -25.239475,
+        "e": -68.432577,
+        "w": -68.587669
       },
       "overlay": "overlays/CGCH_GB_123_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_123_TextoyMapa_leyenda.jpg",
@@ -283,10 +283,10 @@
       "escala": "1:250.000",
       "informe": "GB-127",
       "bounds": {
-        "n": -44.0,
-        "s": -45.0,
-        "e": -71.0,
-        "w": -72.333333
+        "n": -43.976980,
+        "s": -45.022312,
+        "e": -70.883070,
+        "w": -72.366114
       },
       "overlay": "overlays/CGCH_GB_127_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_127_TextoyMapa_leyenda.jpg",
@@ -363,10 +363,10 @@
       "escala": "1:100.000",
       "informe": "GB-133-134",
       "bounds": {
-        "n": -28.987702,
-        "s": -29.507645,
-        "e": -70.986972,
-        "w": -71.679543
+        "n": -28.990226,
+        "s": -29.511116,
+        "e": -70.981871,
+        "w": -71.677818
       },
       "overlay": "overlays/CGCH_GB_133_134_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_133_134_TextoyMapa_leyenda.jpg",
@@ -403,10 +403,10 @@
       "escala": "1:100.000",
       "informe": "GB-138",
       "bounds": {
-        "n": -24.5,
-        "s": -25.0,
-        "e": -69.5,
-        "w": -70.0
+        "n": -24.490875,
+        "s": -25.009820,
+        "e": -69.458278,
+        "w": -70.010453
       },
       "overlay": "overlays/CGCH_GB_138_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_138_TextoyMapa_leyenda.jpg",
@@ -463,10 +463,10 @@
       "escala": "1:100.000",
       "informe": "GB-144",
       "bounds": {
-        "n": -23.505392,
-        "s": -24.005392,
-        "e": -68.500000,
-        "w": -69.000000
+        "n": -23.490742,
+        "s": -24.009000,
+        "e": -68.462678,
+        "w": -69.006460
       },
       "overlay": "overlays/CGCH_GB_144_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_144_TextoyMapa_leyenda.jpg",
@@ -523,10 +523,10 @@
       "escala": "1:100.000",
       "informe": "GB-164-165",
       "bounds": {
-        "n": -25.002458,
-        "s": -25.502458,
-        "e": -70.004324,
-        "w": -70.587657
+        "n": -24.990258,
+        "s": -25.509584,
+        "e": -69.959238,
+        "w": -70.593721
       },
       "overlay": "overlays/CGCH_GB_164_165_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_164_165_TextoyMapa_leyenda.jpg",
@@ -543,10 +543,10 @@
       "escala": "1:100.000",
       "informe": "GB-169",
       "bounds": {
-        "n": -25.500000,
-        "s": -26.000000,
-        "e": -69.997466,
-        "w": -70.497466
+        "n": -25.491215,
+        "s": -26.009443,
+        "e": -69.959321,
+        "w": -70.510076
       },
       "overlay": "overlays/CGCH_GB_169_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_169_TextoyMapa_leyenda.jpg",
@@ -563,10 +563,10 @@
       "escala": "1:100.000",
       "informe": "GB-175-176",
       "bounds": {
-        "n": -29.0,
-        "s": -29.5,
-        "e": -70.0,
-        "w": -70.5
+        "n": -28.990800,
+        "s": -29.508877,
+        "e": -69.736747,
+        "w": -70.511423
       },
       "overlay": "overlays/CGCH_GB_175_176_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_175_176_TextoyMapa_leyenda.jpg",
@@ -603,10 +603,10 @@
       "escala": "1:100.000",
       "informe": "GB-185-186",
       "bounds": {
-        "n": -25.992593,
-        "s": -26.492593,
-        "e": -68.416053,
-        "w": -68.999386
+        "n": -25.990346,
+        "s": -26.509506,
+        "e": -68.306669,
+        "w": -69.010696
       },
       "overlay": "overlays/CGCH_GB_185_186_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_185_186_TextoyMapa_leyenda.jpg",
@@ -623,10 +623,10 @@
       "escala": "1:100.000",
       "informe": "GB-189",
       "bounds": {
-        "n": -23.996312,
-        "s": -24.496312,
-        "e": -69.000000,
-        "w": -69.500000
+        "n": -23.991445,
+        "s": -24.508852,
+        "e": -68.949479,
+        "w": -69.509703
       },
       "overlay": "overlays/CGCH_GB_189_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_189_TextoyMapa_leyenda.jpg",
@@ -643,10 +643,10 @@
       "escala": "1:100.000",
       "informe": "GB-192-193",
       "bounds": {
-        "n": -29.5,
-        "s": -30.0,
-        "e": -70.0,
-        "w": -70.5
+        "n": -29.490663,
+        "s": -30.007964,
+        "e": -69.822627,
+        "w": -70.510598
       },
       "overlay": "overlays/CGCH_GB_192_193_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_192_193_TextoyMapa_leyenda.jpg",
@@ -663,10 +663,10 @@
       "escala": "1:100.000",
       "informe": "GB-198",
       "bounds": {
-        "n": -22.5,
-        "s": -23.0,
-        "e": -69.0,
-        "w": -69.5
+        "n": -22.489942,
+        "s": -23.008043,
+        "e": -68.954335,
+        "w": -69.509906
       },
       "overlay": "overlays/CGCH_GB_198_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_198_TextoyMapa_leyenda.jpg",
@@ -683,10 +683,10 @@
       "escala": "1:100.000",
       "informe": "GB-199",
       "bounds": {
-        "n": -21.998774,
-        "s": -22.498774,
-        "e": -68.500000,
-        "w": -69.000000
+        "n": -21.990298,
+        "s": -22.509545,
+        "e": -68.476938,
+        "w": -69.009424
       },
       "overlay": "overlays/CGCH_GB_199_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_199_TextoyMapa_leyenda.jpg",
@@ -703,10 +703,10 @@
       "escala": "1:100.000",
       "informe": "GB-200",
       "bounds": {
-        "n": -27.493658,
-        "s": -27.993658,
-        "e": -68.997997,
-        "w": -69.497997
+        "n": -27.491110,
+        "s": -28.010255,
+        "e": -68.891640,
+        "w": -69.511389
       },
       "overlay": "overlays/CGCH_GB_200_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_200_TextoyMapa_leyenda.jpg",
@@ -723,10 +723,10 @@
       "escala": "1:50.000",
       "informe": "GB-201",
       "bounds": {
-        "n": -21.75,
-        "s": -22.0,
-        "e": -68.266667,
-        "w": -68.633333
+        "n": -21.744750,
+        "s": -22.005808,
+        "e": -68.260868,
+        "w": -68.637283
       },
       "overlay": "overlays/CGCH_GB_201_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_201_TextoyMapa_leyenda.jpg",
@@ -763,10 +763,10 @@
       "escala": "1:100.000",
       "informe": "GB-204-205",
       "bounds": {
-        "n": -27.0,
-        "s": -27.5,
-        "e": -68.25,
-        "w": -69.0
+        "n": -26.990504,
+        "s": -27.508637,
+        "e": -68.203085,
+        "w": -69.011083
       },
       "overlay": "overlays/CGCH_GB_204_205_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_204_205_TextoyMapa_leyenda.jpg",
@@ -783,10 +783,10 @@
       "escala": "1:100.000",
       "informe": "GB-206",
       "bounds": {
-        "n": -22.499527,
-        "s": -22.999527,
-        "e": -69.500000,
-        "w": -70.000000
+        "n": -22.491114,
+        "s": -23.009342,
+        "e": -69.425549,
+        "w": -70.009972
       },
       "overlay": "overlays/CGCH_GB_206_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_206_TextoyMapa_leyenda.jpg",
@@ -803,10 +803,10 @@
       "escala": "1:100.000",
       "informe": "GB-210",
       "bounds": {
-        "n": -39.998344,
-        "s": -40.498344,
-        "e": -72.500000,
-        "w": -73.000000
+        "n": -39.991261,
+        "s": -40.509442,
+        "e": -72.445989,
+        "w": -73.013029
       },
       "overlay": "overlays/CGCH_GB_210_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_210_TextoyMapa_leyenda.jpg",
@@ -823,10 +823,10 @@
       "escala": "1:100.000",
       "informe": "GB-211-212",
       "bounds": {
-        "n": -30.000000,
-        "s": -30.500000,
-        "e": -69.749365,
-        "w": -70.499365
+        "n": -29.990834,
+        "s": -30.508786,
+        "e": -69.701396,
+        "w": -70.509870
       },
       "overlay": "overlays/CGCH_GB_211_212_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_211_212_TextoyMapa_leyenda.jpg",
@@ -843,10 +843,10 @@
       "escala": "1:100.000",
       "informe": "GB-215-216",
       "bounds": {
-        "n": -22.0,
-        "s": -22.5,
-        "e": -67.866667,
-        "w": -68.5
+        "n": -21.990947,
+        "s": -22.509100,
+        "e": -67.823408,
+        "w": -68.509220
       },
       "overlay": "overlays/CGCH_GB_215_216_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_215_216_TextoyMapa_leyenda.jpg",
@@ -903,10 +903,10 @@
       "escala": "1:100.000",
       "informe": "GB-181",
       "bounds": {
-        "n": -28.5,
-        "s": -29.0,
-        "e": -69.583333,
-        "w": -70.0
+        "n": -28.490420,
+        "s": -29.008763,
+        "e": -69.536267,
+        "w": -70.009622
       },
       "overlay": "overlays/Cerros_de_Cantaritos_Laguna_Chica.webp",
       "leyenda": "leyendas/Cerros_de_Cantaritos_Laguna_Chica_leyenda.jpg",
@@ -923,10 +923,10 @@
       "escala": "1:100.000",
       "informe": "GB-149",
       "bounds": {
-        "n": -28.5,
-        "s": -29.0,
-        "e": -70.0,
-        "w": -70.5
+        "n": -28.490327,
+        "s": -29.010934,
+        "e": -69.988688,
+        "w": -70.510993
       },
       "overlay": "overlays/El_Transito_Lagunillas.webp",
       "leyenda": "leyendas/El_Transito_Lagunillas_leyenda.jpg",
@@ -943,10 +943,10 @@
       "escala": "1:100.000",
       "informe": "GB-208-209",
       "bounds": {
-        "n": -30.500000,
-        "s": -31.000000,
-        "e": -70.997552,
-        "w": -71.747552
+        "n": -30.490704,
+        "s": -31.008897,
+        "e": -70.949797,
+        "w": -71.759524
       },
       "overlay": "overlays/Ovalle_y_Peña_Blanca.webp",
       "leyenda": "leyendas/Ovalle_y_Peña_Blanca_leyenda.jpg",
@@ -1001,10 +1001,10 @@
       "escala": "1:100.000",
       "informe": "GB-183-184",
       "bounds": {
-        "n": -24.493399,
-        "s": -25.010189,
-        "e": -69.990990,
-        "w": -70.675693
+        "n": -24.492832,
+        "s": -25.009600,
+        "e": -69.948939,
+        "w": -70.633729
       },
       "overlay": "overlays/CGCH_GB_183_184_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_183_184_TextoyMapa_leyenda.jpg",
@@ -1020,10 +1020,10 @@
       "escala": "1:100.000",
       "informe": "GB-187-188",
       "bounds": {
-        "n": -23.994040,
-        "s": -24.509376,
-        "e": -70.001035,
-        "w": -70.689492
+        "n": -23.994164,
+        "s": -24.509611,
+        "e": -69.975497,
+        "w": -70.664230
       },
       "overlay": "overlays/CGCH_GB_187_188_TextoyMapa.webp",
       "leyenda": "leyendas/CGCH_GB_187_188_TextoyMapa_leyenda.jpg",
