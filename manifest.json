@@ -37,7 +37,7 @@
         "w": -71.502985
       },
       "overlay": "overlays/geo_F21_raster.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/geo_F21_raster_leyenda.jpg",
       "opacidad": 1.0
     },
     {
@@ -75,7 +75,7 @@
         "w": -71.558233
       },
       "overlay": "overlays/geo_F28_carta64.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/geo_F28_carta64_leyenda.jpg",
       "opacidad": 1.0
     },
     {
@@ -1124,7 +1124,7 @@
         "w": -70.505022
       },
       "overlay": "overlays/CGCH_06_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_06_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Kenneth Segerstrom y Carlos Ruiz Fuller"
     },
