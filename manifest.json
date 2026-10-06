@@ -1427,6 +1427,186 @@
       "leyenda": "leyendas/CGCH_28_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Pedro Dedios Ayala"
+    },
+    {
+      "id": "CGCH_29_TextoyMapa",
+      "titulo": "Región continental de Aysén entre el Lago General Carrera y la Cordillera Castillo",
+      "region": "Región Aisén del General Carlos Ibáñez del Campo",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1978",
+      "escala": "1:250.000",
+      "informe": "CGCH-29",
+      "bounds": {
+        "n": -45.976275,
+        "s": -47.022155,
+        "e": -71.594312,
+        "w": -73.048994
+      },
+      "overlay": "overlays/CGCH_29_TextoyMapa.webp",
+      "leyenda": null,
+      "opacidad": 1.0,
+      "autor": "Jorge Skármeta M."
+    },
+    {
+      "id": "CGCH_30_TextoyMapa",
+      "titulo": "Hoja Antofagasta",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1978",
+      "escala": "1:250.000",
+      "informe": "CGCH-30",
+      "bounds": {
+        "n": -22.95306,
+        "s": -24.054377,
+        "e": -68.948299,
+        "w": -70.823183
+      },
+      "overlay": "overlays/CGCH_30_TextoyMapa.webp",
+      "leyenda": null,
+      "opacidad": 1.0,
+      "autor": "Fernando Ferraris B. y Francisco Di Biase F."
+    },
+    {
+      "id": "CGCH_31_TextoyMapa",
+      "titulo": "Cuadrángulo Chitigua y sector occidental del Cuadrángulo Cerro Palpana",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1978",
+      "escala": "1:50.000",
+      "informe": "CGCH-31",
+      "bounds": {
+        "n": -21.494871,
+        "s": -21.763116,
+        "e": -68.650432,
+        "w": -69.010572
+      },
+      "overlay": "overlays/CGCH_31_TextoyMapa.webp",
+      "leyenda": null,
+      "opacidad": 1.0,
+      "autor": "Víctor Maksaev J."
+    },
+    {
+      "id": "CGCH_32_TextoyMapa",
+      "titulo": "Cuadrángulo Quehuita y sector occidental del Cuadrángulo Volcán Miño",
+      "region": "Región de Tarapacá",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1978",
+      "escala": "1:50.000",
+      "informe": "CGCH-32",
+      "bounds": {
+        "n": -20.995913,
+        "s": -21.263605,
+        "e": -68.617242,
+        "w": -69.010815
+      },
+      "overlay": "overlays/CGCH_32_TextoyMapa.webp",
+      "leyenda": null,
+      "opacidad": 1.0,
+      "autor": "Hernán Vergara L."
+    },
+    {
+      "id": "CGCH_33_TextoyMapa",
+      "titulo": "Cuadrángulo Ujina",
+      "region": "Región de Tarapacá",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1978",
+      "escala": "1:50.000",
+      "informe": "CGCH-33",
+      "bounds": {
+        "n": -20.745419,
+        "s": -21.010501,
+        "e": -68.494083,
+        "w": -68.760374
+      },
+      "overlay": "overlays/CGCH_33_TextoyMapa.webp",
+      "leyenda": null,
+      "opacidad": 1.0,
+      "autor": "Hernán Vergara L."
+    },
+    {
+      "id": "CGCH_34_TextoyMapa",
+      "titulo": "Geología de la zona interior de la Cordillera de la Costa entre los 26°00' y 26°20'",
+      "region": "Región de Atacama",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1978",
+      "escala": "1:100.000",
+      "informe": "CGCH-34",
+      "bounds": {
+        "n": -25.986928,
+        "s": -26.354405,
+        "e": -70.236764,
+        "w": -70.519779
+      },
+      "overlay": "overlays/CGCH_34_TextoyMapa.webp",
+      "leyenda": null,
+      "opacidad": 1.0,
+      "autor": "José A. Naranjo S."
+    },
+    {
+      "id": "CGCH_35_TextoyMapa",
+      "titulo": "Cuadrángulos Arica y Poconchile",
+      "region": "Región de Arica y Parinacota",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1980",
+      "escala": "1:100.000",
+      "informe": "CGCH-35",
+      "bounds": {
+        "n": -18.244222,
+        "s": -18.512797,
+        "e": -69.991851,
+        "w": -70.407514
+      },
+      "overlay": "overlays/CGCH_35_TextoyMapa.webp",
+      "leyenda": null,
+      "opacidad": 1.0,
+      "autor": "Sonia Vogel y Tomás Vila"
+    },
+    {
+      "id": "CGCH_36_TextoyMapa",
+      "titulo": "Geología del área al sur del Canal Beagle",
+      "region": "Región de Magallanes y de la Antártica Chilena",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1978",
+      "escala": "1:500.000",
+      "informe": "CGCH-36",
+      "bounds": {
+        "n": -54.698281,
+        "s": -56.112322,
+        "e": -66.149401,
+        "w": -70.414239
+      },
+      "overlay": "overlays/CGCH_36_TextoyMapa.webp",
+      "leyenda": null,
+      "opacidad": 1.0,
+      "autor": "Manuel Suárez D."
+    },
+    {
+      "id": "CGCH_37_TextoyMapa",
+      "titulo": "Geología del área Pan de Azúcar",
+      "region": "Región de Atacama",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1980",
+      "escala": "1:100.000",
+      "informe": "CGCH-37",
+      "bounds": {
+        "n": -25.988305,
+        "s": -26.351981,
+        "e": -70.48499,
+        "w": -70.769221
+      },
+      "overlay": "overlays/CGCH_37_TextoyMapa.webp",
+      "leyenda": null,
+      "opacidad": 1.0,
+      "autor": "Margaret Mercado W."
     }
   ]
 }
