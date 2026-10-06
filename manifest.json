@@ -1064,7 +1064,7 @@
         "w": -70.266515
       },
       "overlay": "overlays/CGCH_01_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_01_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Kenneth Segerstrom"
     },
@@ -1084,7 +1084,7 @@
         "w": -70.264961
       },
       "overlay": "overlays/CGCH_03_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_03_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Kenneth Segerstrom"
     },
@@ -1104,7 +1104,7 @@
         "w": -70.508353
       },
       "overlay": "overlays/CGCH_05_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_05_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Kenneth Segerstrom, Beatriz L. de Valenzuela y Sonia Mehech"
     },
@@ -1184,7 +1184,7 @@
         "w": -70.257396
       },
       "overlay": "overlays/CGCH_12_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_12_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Kenneth Segerstrom, Herbert Thomas y Robert I. Tilling"
     },
@@ -1204,7 +1204,7 @@
         "w": -70.508252
       },
       "overlay": "overlays/CGCH_13_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_13_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Kenneth Segerstrom y Aldo Moraga Brito"
     },
@@ -1224,7 +1224,7 @@
         "w": -68.256455
       },
       "overlay": "overlays/CGCH_14_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_14_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Robert J. Dingman"
     },
@@ -1244,7 +1244,7 @@
         "w": -71.015598
       },
       "overlay": "overlays/CGCH_15_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_15_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Luis Aguirre Le-Bert y Ernesto Egert Ruiz"
     },
@@ -1264,7 +1264,7 @@
         "w": -70.760096
       },
       "overlay": "overlays/CGCH_16_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_16_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Pedro Dedios Ayala"
     },
@@ -1284,7 +1284,7 @@
         "w": -69.256475
       },
       "overlay": "overlays/CGCH_17_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_17_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Arturo Thomas Novoa"
     },
@@ -1304,7 +1304,7 @@
         "w": -69.503525
       },
       "overlay": "overlays/CGCH_18_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_18_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Carlos Galli Olivier"
     },
@@ -1344,7 +1344,7 @@
         "w": -71.013185
       },
       "overlay": "overlays/CGCH_23_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_23_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Luis Aguirre Le-Bert y Ernesto Egert Ruiz"
     },
@@ -1364,7 +1364,7 @@
         "w": -70.269018
       },
       "overlay": "overlays/CGCH_24_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_24_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Luis Ignacio Silva"
     },
@@ -1384,7 +1384,7 @@
         "w": -70.262602
       },
       "overlay": "overlays/CGCH_25_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_25_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Aldo Moraga B."
     },
@@ -1404,7 +1404,7 @@
         "w": -70.710002
       },
       "overlay": "overlays/CGCH_26_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_26_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Fernando Ferraris B."
     },
@@ -1444,7 +1444,7 @@
         "w": -73.048994
       },
       "overlay": "overlays/CGCH_29_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_29_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Jorge Skármeta M."
     },
@@ -1464,7 +1464,7 @@
         "w": -70.823183
       },
       "overlay": "overlays/CGCH_30_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_30_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Fernando Ferraris B. y Francisco Di Biase F."
     },
@@ -1484,7 +1484,7 @@
         "w": -69.010572
       },
       "overlay": "overlays/CGCH_31_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_31_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Víctor Maksaev J."
     },
@@ -1504,7 +1504,7 @@
         "w": -69.010815
       },
       "overlay": "overlays/CGCH_32_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_32_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Hernán Vergara L."
     },
@@ -1524,7 +1524,7 @@
         "w": -68.760374
       },
       "overlay": "overlays/CGCH_33_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_33_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Hernán Vergara L."
     },
@@ -1544,7 +1544,7 @@
         "w": -70.519779
       },
       "overlay": "overlays/CGCH_34_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_34_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "José A. Naranjo S."
     },
@@ -1564,7 +1564,7 @@
         "w": -70.407514
       },
       "overlay": "overlays/CGCH_35_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_35_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Sonia Vogel y Tomás Vila"
     },
@@ -1584,7 +1584,7 @@
         "w": -70.414239
       },
       "overlay": "overlays/CGCH_36_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_36_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Manuel Suárez D."
     },
@@ -1604,7 +1604,7 @@
         "w": -70.769221
       },
       "overlay": "overlays/CGCH_37_TextoyMapa.webp",
-      "leyenda": null,
+      "leyenda": "leyendas/CGCH_37_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Margaret Mercado W."
     }
