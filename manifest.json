@@ -1607,6 +1607,206 @@
       "leyenda": "leyendas/CGCH_37_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Margaret Mercado W."
+    },
+    {
+      "id": "CGCH_GB_146_TextoyMapa",
+      "titulo": "Carta Cuya",
+      "region": "Región de Tarapacá",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2012",
+      "escala": "1:100.000",
+      "informe": "GB-146",
+      "bounds": {
+        "n": -19.000465,
+        "s": -19.499289,
+        "e": -70.000199,
+        "w": -70.415867
+      },
+      "overlay": "overlays/CGCH_GB_146_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_146_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Marcelo García G., Guillermo Fuentes E."
+    },
+    {
+      "id": "CGCH_GB_150_TextoyMapa",
+      "titulo": "Geología del área Estación Chañar-Junta de Chingoles",
+      "region": "Región de Atacama",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2013",
+      "escala": "1:100.000",
+      "informe": "GB-150",
+      "bounds": {
+        "n": -29.000601,
+        "s": -29.49977,
+        "e": -70.499838,
+        "w": -70.998616
+      },
+      "overlay": "overlays/CGCH_GB_150_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_150_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Christian Creixell T., Mariana Labbé R., Carlos Arévalo V., Esteban Salazar P."
+    },
+    {
+      "id": "M207_Sierra_Vaquillas_Altas",
+      "titulo": "Carta Sierra Vaquillas Altas",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2013",
+      "escala": "1:100.000",
+      "informe": "GB-159",
+      "bounds": {
+        "n": -25.000537,
+        "s": -25.499463,
+        "e": -69.000221,
+        "w": -69.498549
+      },
+      "overlay": "overlays/M207_Sierra_Vaquillas_Altas.webp",
+      "leyenda": "leyendas/M207_Sierra_Vaquillas_Altas_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "C. Venegas, M. Cervetto, N. Astudillo, F. Espinoza, P. Cornejo, C. Mpodozis, O. Rivera"
+    },
+    {
+      "id": "CGCH_GB_190_TextoyMapa",
+      "titulo": "Geología del área Ascotán-Cerro Inacaliri",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2017",
+      "escala": "1:100.000",
+      "informe": "GB-190",
+      "bounds": {
+        "n": -21.50043,
+        "s": -21.999472,
+        "e": -68.000998,
+        "w": -68.49893
+      },
+      "overlay": "overlays/CGCH_GB_190_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_190_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Daniel Sellés M., Moyra Gardeweg P."
+    },
+    {
+      "id": "CGCH_GB_191_TextoyMapa",
+      "titulo": "Geología del área Imilac-Quebrada Guanaqueros",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2017",
+      "escala": "1:100.000",
+      "informe": "GB-191",
+      "bounds": {
+        "n": -24.000648,
+        "s": -24.499487,
+        "e": -68.500543,
+        "w": -68.999444
+      },
+      "overlay": "overlays/CGCH_GB_191_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_191_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Marcelo Solari C., Javier Cortés H., Carlos Venegas B., Benjamín Bahamondes A., Diego Montecino J., Felipe Espinoza G., Natalia Astudillo L."
+    },
+    {
+      "id": "CGCH_GB_194_TextoyMapa",
+      "titulo": "Carta Lago Chungará",
+      "region": "Región de Arica y Parinacota",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2018",
+      "escala": "1:100.000",
+      "informe": "GB-194",
+      "bounds": {
+        "n": -18.000577,
+        "s": -18.499616,
+        "e": -69.000484,
+        "w": -69.499453
+      },
+      "overlay": "overlays/CGCH_GB_194_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_194_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Jorge Clavero R., Bárbara Droguett V., Rodrigo Quiroga C., Pamela Álvarez"
+    },
+    {
+      "id": "CGCH_GB_197_TextoyMapa",
+      "titulo": "Carta Putre",
+      "region": "Región de Arica y Parinacota",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2018",
+      "escala": "1:100.000",
+      "informe": "GB-197",
+      "bounds": {
+        "n": -18.000765,
+        "s": -18.499678,
+        "e": -69.500975,
+        "w": -69.999958
+      },
+      "overlay": "overlays/CGCH_GB_197_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_197_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Rodrigo Arcos R., José Antonio Naranjo S., Marco Ladino U., Edmundo Polanco V."
+    },
+    {
+      "id": "CGCH_GB_213_TextoyMapa",
+      "titulo": "Geología de las islas Robinson Crusoe y Santa Clara",
+      "region": "Región de Valparaíso",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2022",
+      "escala": "1:25.000",
+      "informe": "GB-213",
+      "bounds": {
+        "n": -33.600214,
+        "s": -33.733285,
+        "e": -78.750086,
+        "w": -78.966483
+      },
+      "overlay": "overlays/CGCH_GB_213_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_213_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Luis E. Lara P., Javier Reyes V., Pablo Sepúlveda S.M., Gabriel Orozco L., Mirella Piña G., Laura Becerril C."
+    },
+    {
+      "id": "CGCH_GB_221_TextoyMapa",
+      "titulo": "Geología del área Cordillera de Doña Rosa-Paso de Los Azules",
+      "region": "Región de Coquimbo",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2025",
+      "escala": "1:100.000",
+      "informe": "GB-221",
+      "bounds": {
+        "n": -30.500348,
+        "s": -30.999593,
+        "e": -70.082648,
+        "w": -70.49934
+      },
+      "overlay": "overlays/CGCH_GB_221_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_221_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Roberto N. Merino G., Miguel Ortiz L., Felipe Coloma B."
+    },
+    {
+      "id": "CGCH_GB_222_TextoyMapa",
+      "titulo": "Geología del área Concepción-Talcahuano",
+      "region": "Región del Biobío",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2025",
+      "escala": "1:100.000",
+      "informe": "GB-222",
+      "bounds": {
+        "n": -36.50022,
+        "s": -36.9997,
+        "e": -72.999694,
+        "w": -73.249095
+      },
+      "overlay": "overlays/CGCH_GB_222_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_222_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Ricardo Velásquez H., Natalia Sepúlveda D., Christian Creixell T., Ramiro Bonilla P., Roberto Merino G., Abraham González M., Juan Carlos Moral Y., Luis Arturo Quinzio S."
     }
   ]
 }
