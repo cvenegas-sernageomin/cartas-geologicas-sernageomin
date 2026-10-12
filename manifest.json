@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-10",
-  "nota": "2026-10-10: 44 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220). Re-georreferenciadas a mano (2026-08-28) las 5 que se habian excluido por bounds erroneos: se detecto que la hoja compuesta trae mini-mapas de referencia (mapa de ubicacion, trabajos anteriores, cuadro de situacion) con su PROPIA grilla de coordenadas dentro del mismo rango de valores plausibles que el mapa principal, confundiendo el ajuste automatico; se filtraron las etiquetas espurias a mano por posicion en pixeles usando las coordenadas del propio PDF fuente (texto vectorial, no OCR) -- error final del ajuste bajo 135 m en las 5, contra 100+ km antes. | 2026-09-04: correccion de georreferenciacion en 10 cartas (13 ejes), medida contra la grilla UTM impresa en el datum que DECLARA cada hoja (cajetin \"Referencia geodesica\" del PDF fuente). Se corrigio la causa de fondo: 9 hojas se habian ajustado con un datum distinto al declarado, lo que las dejaba corridas ~185 m en E y/o ~375 m en N. Solo se corrigio un eje cuando su medicion era confiable (desviacion estandar <= 40 m sobre >= 4 lineas de grilla); los ejes cuya grilla no se puede leer quedaron sin tocar y estan derivados a revision manual. | 2026-09-17: +19 cartas de la serie original Carta Geológica de Chile del Instituto de Investigaciones Geológicas (1959-1978), escalas 1:50.000 a 1:250.000, georreferenciadas por Claudio Ortega. Título/año/escala/autor transcritos de la portada de cada publicación (los PDF son escaneados con OCR, así que ningún campo sale de un regex); el catálogo oficial impreso en CGCH_26 y CGCH_28 sirvió de contraste. GEORREFERENCIACIÓN SIN VERIFICAR contra la grilla UTM impresa: el lineage ArcGIS declara dos transformaciones de datum distintas dentro del mismo lote (PSAD_1956_To_WGS_1984_15 al norte de 26°S, _16 al sur). CGCH_05 llegó en PSAD56/UTM19S pese al nombre de la carpeta y se reproyectó a WGS84 con \"PSAD56 to WGS 84 (16)\", la que PROJ elige para esa área y la misma que declaran sus hojas vecinas. Traslapes a propósito: CGCH_21_22 cae dentro de GB-162-163 (más resolución) y CGCH_26 (1:250.000) contiene a GB-183-184 y GB-187-188. Quedan FUERA CGCH_02 (sin georreferenciación válida: bounds en el golfo de Adén) y CGCH_04 (copia byte a byte de CGCH_06).",
+  "version": "2026-10-12",
+  "nota": "2026-10-12: 5 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. 2026-10-10: 44 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220). Re-georreferenciadas a mano (2026-08-28) las 5 que se habian excluido por bounds erroneos: se detecto que la hoja compuesta trae mini-mapas de referencia (mapa de ubicacion, trabajos anteriores, cuadro de situacion) con su PROPIA grilla de coordenadas dentro del mismo rango de valores plausibles que el mapa principal, confundiendo el ajuste automatico; se filtraron las etiquetas espurias a mano por posicion en pixeles usando las coordenadas del propio PDF fuente (texto vectorial, no OCR) -- error final del ajuste bajo 135 m en las 5, contra 100+ km antes. | 2026-09-04: correccion de georreferenciacion en 10 cartas (13 ejes), medida contra la grilla UTM impresa en el datum que DECLARA cada hoja (cajetin \"Referencia geodesica\" del PDF fuente). Se corrigio la causa de fondo: 9 hojas se habian ajustado con un datum distinto al declarado, lo que las dejaba corridas ~185 m en E y/o ~375 m en N. Solo se corrigio un eje cuando su medicion era confiable (desviacion estandar <= 40 m sobre >= 4 lineas de grilla); los ejes cuya grilla no se puede leer quedaron sin tocar y estan derivados a revision manual. | 2026-09-17: +19 cartas de la serie original Carta Geológica de Chile del Instituto de Investigaciones Geológicas (1959-1978), escalas 1:50.000 a 1:250.000, georreferenciadas por Claudio Ortega. Título/año/escala/autor transcritos de la portada de cada publicación (los PDF son escaneados con OCR, así que ningún campo sale de un regex); el catálogo oficial impreso en CGCH_26 y CGCH_28 sirvió de contraste. GEORREFERENCIACIÓN SIN VERIFICAR contra la grilla UTM impresa: el lineage ArcGIS declara dos transformaciones de datum distintas dentro del mismo lote (PSAD_1956_To_WGS_1984_15 al norte de 26°S, _16 al sur). CGCH_05 llegó en PSAD56/UTM19S pese al nombre de la carpeta y se reproyectó a WGS84 con \"PSAD56 to WGS 84 (16)\", la que PROJ elige para esa área y la misma que declaran sus hojas vecinas. Traslapes a propósito: CGCH_21_22 cae dentro de GB-162-163 (más resolución) y CGCH_26 (1:250.000) contiene a GB-183-184 y GB-187-188. Quedan FUERA CGCH_02 (sin georreferenciación válida: bounds en el golfo de Adén) y CGCH_04 (copia byte a byte de CGCH_06).",
   "mapas": [
     {
       "id": "geo_F19_pichibelco",
@@ -72,12 +72,13 @@
       "bounds": {
         "n": -35.914831,
         "s": -37.028273,
-        "e": -70.237853,
-        "w": -71.558233
+        "w": -71.529082,
+        "e": -70.237853
       },
       "overlay": "overlays/geo_F28_carta64.webp",
       "leyenda": "leyendas/geo_F28_carta64_leyenda.jpg",
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "rev": "2026-10-12"
     },
     {
       "id": "geo_lagunamaule_LDMField_NE",
@@ -89,14 +90,15 @@
       "escala": "",
       "informe": "Boletín 63",
       "bounds": {
-        "n": -35.874454,
-        "s": -36.006875,
-        "e": -70.324677,
-        "w": -70.582538
+        "n": -35.878345,
+        "s": -36.01022,
+        "e": -70.327031,
+        "w": -70.584712
       },
       "overlay": "overlays/geo_lagunamaule_LDMField_NE.webp",
       "leyenda": null,
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "rev": "2026-10-12"
     },
     {
       "id": "geo_tinguiririca_teno",
@@ -128,14 +130,15 @@
       "escala": "",
       "informe": "Boletín 63",
       "bounds": {
-        "n": -35.848248,
-        "s": -36.008428,
-        "e": -70.534477,
-        "w": -70.769007
+        "n": -35.852135,
+        "s": -36.012373,
+        "e": -70.536669,
+        "w": -70.753468
       },
       "overlay": "overlays/geo_lagunamaule_LDMField_NW.webp",
       "leyenda": null,
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "rev": "2026-10-12"
     },
     {
       "id": "geo_lagunamaule_LDMField_SE",
@@ -147,14 +150,15 @@
       "escala": "",
       "informe": "Boletín 63",
       "bounds": {
-        "n": -35.962002,
-        "s": -36.228239,
-        "e": -70.354299,
-        "w": -70.627699
+        "n": -35.965893,
+        "s": -36.231581,
+        "e": -70.356662,
+        "w": -70.629879
       },
       "overlay": "overlays/geo_lagunamaule_LDMField_SE.webp",
       "leyenda": null,
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "rev": "2026-10-12"
     },
     {
       "id": "geo_lagunamaule_LDMField_SW",
@@ -166,14 +170,15 @@
       "escala": "",
       "informe": "Boletín 63",
       "bounds": {
-        "n": -35.992587,
-        "s": -36.170239,
-        "e": -70.566197,
-        "w": -70.805761
+        "n": -36.002921,
+        "s": -36.172529,
+        "e": -70.584511,
+        "w": -70.807979
       },
       "overlay": "overlays/geo_lagunamaule_LDMField_SW.webp",
       "leyenda": null,
-      "opacidad": 1.0
+      "opacidad": 1.0,
+      "rev": "2026-10-12"
     },
     {
       "id": "CGCH_GB_121_TextoyMapa",
