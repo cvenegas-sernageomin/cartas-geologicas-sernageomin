@@ -1,6 +1,6 @@
 {
   "version": "2026-10-15",
-  "nota": "2026-10-14: +44 cartas de la serie Geología Básica (GB-74 a GB-120), georreferenciadas con las GDB oficiales de SERNAGEOMIN (los contactos de la GDB se registraron sobre la lámina; el marco se midió en la lámina) y recortadas al marco; las GDB de GB-106 y GB-115 venían sin el desfase PSAD56→WGS84 y se corrigieron. Incluye GB-109 y GB-117, georreferenciadas con la grilla UTM impresa. 2026-10-12: 5 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. 2026-10-10: 44 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220). Re-georreferenciadas a mano (2026-08-28) las 5 que se habian excluido por bounds erroneos: se detecto que la hoja compuesta trae mini-mapas de referencia (mapa de ubicacion, trabajos anteriores, cuadro de situacion) con su PROPIA grilla de coordenadas dentro del mismo rango de valores plausibles que el mapa principal, confundiendo el ajuste automatico; se filtraron las etiquetas espurias a mano por posicion en pixeles usando las coordenadas del propio PDF fuente (texto vectorial, no OCR) -- error final del ajuste bajo 135 m en las 5, contra 100+ km antes. | 2026-09-04: correccion de georreferenciacion en 10 cartas (13 ejes), medida contra la grilla UTM impresa en el datum que DECLARA cada hoja (cajetin \"Referencia geodesica\" del PDF fuente). Se corrigio la causa de fondo: 9 hojas se habian ajustado con un datum distinto al declarado, lo que las dejaba corridas ~185 m en E y/o ~375 m en N. Solo se corrigio un eje cuando su medicion era confiable (desviacion estandar <= 40 m sobre >= 4 lineas de grilla); los ejes cuya grilla no se puede leer quedaron sin tocar y estan derivados a revision manual. | 2026-09-17: +19 cartas de la serie original Carta Geológica de Chile del Instituto de Investigaciones Geológicas (1959-1978), escalas 1:50.000 a 1:250.000, georreferenciadas por Claudio Ortega. Título/año/escala/autor transcritos de la portada de cada publicación (los PDF son escaneados con OCR, así que ningún campo sale de un regex); el catálogo oficial impreso en CGCH_26 y CGCH_28 sirvió de contraste. GEORREFERENCIACIÓN SIN VERIFICAR contra la grilla UTM impresa: el lineage ArcGIS declara dos transformaciones de datum distintas dentro del mismo lote (PSAD_1956_To_WGS_1984_15 al norte de 26°S, _16 al sur). CGCH_05 llegó en PSAD56/UTM19S pese al nombre de la carpeta y se reproyectó a WGS84 con \"PSAD56 to WGS 84 (16)\", la que PROJ elige para esa área y la misma que declaran sus hojas vecinas. Traslapes a propósito: CGCH_21_22 cae dentro de GB-162-163 (más resolución) y CGCH_26 (1:250.000) contiene a GB-183-184 y GB-187-188. Quedan FUERA CGCH_02 (sin georreferenciación válida: bounds en el golfo de Adén) y CGCH_04 (copia byte a byte de CGCH_06).",
+  "nota": "2026-10-15: +10 cartas (GB-124, 130, 131, 148, 174, 195-196, 223-224 y CGCH-39, 68, 69): las GB con GDB del portal se registraron sobre la lámina; GB-131, 148 y 174 (sin GDB) por el marco impreso; GB-127 recortada al marco. 2026-10-14: +44 cartas de la serie Geología Básica (GB-74 a GB-120), georreferenciadas con las GDB oficiales de SERNAGEOMIN (los contactos de la GDB se registraron sobre la lámina; el marco se midió en la lámina) y recortadas al marco; las GDB de GB-106 y GB-115 venían sin el desfase PSAD56→WGS84 y se corrigieron. Incluye GB-109 y GB-117, georreferenciadas con la grilla UTM impresa. 2026-10-12: 5 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. 2026-10-10: 44 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220). Re-georreferenciadas a mano (2026-08-28) las 5 que se habian excluido por bounds erroneos: se detecto que la hoja compuesta trae mini-mapas de referencia (mapa de ubicacion, trabajos anteriores, cuadro de situacion) con su PROPIA grilla de coordenadas dentro del mismo rango de valores plausibles que el mapa principal, confundiendo el ajuste automatico; se filtraron las etiquetas espurias a mano por posicion en pixeles usando las coordenadas del propio PDF fuente (texto vectorial, no OCR) -- error final del ajuste bajo 135 m en las 5, contra 100+ km antes. | 2026-09-04: correccion de georreferenciacion en 10 cartas (13 ejes), medida contra la grilla UTM impresa en el datum que DECLARA cada hoja (cajetin \"Referencia geodesica\" del PDF fuente). Se corrigio la causa de fondo: 9 hojas se habian ajustado con un datum distinto al declarado, lo que las dejaba corridas ~185 m en E y/o ~375 m en N. Solo se corrigio un eje cuando su medicion era confiable (desviacion estandar <= 40 m sobre >= 4 lineas de grilla); los ejes cuya grilla no se puede leer quedaron sin tocar y estan derivados a revision manual. | 2026-09-17: +19 cartas de la serie original Carta Geológica de Chile del Instituto de Investigaciones Geológicas (1959-1978), escalas 1:50.000 a 1:250.000, georreferenciadas por Claudio Ortega. Título/año/escala/autor transcritos de la portada de cada publicación (los PDF son escaneados con OCR, así que ningún campo sale de un regex); el catálogo oficial impreso en CGCH_26 y CGCH_28 sirvió de contraste. GEORREFERENCIACIÓN SIN VERIFICAR contra la grilla UTM impresa: el lineage ArcGIS declara dos transformaciones de datum distintas dentro del mismo lote (PSAD_1956_To_WGS_1984_15 al norte de 26°S, _16 al sur). CGCH_05 llegó en PSAD56/UTM19S pese al nombre de la carpeta y se reproyectó a WGS84 con \"PSAD56 to WGS 84 (16)\", la que PROJ elige para esa área y la misma que declaran sus hojas vecinas. Traslapes a propósito: CGCH_21_22 cae dentro de GB-162-163 (más resolución) y CGCH_26 (1:250.000) contiene a GB-183-184 y GB-187-188. Quedan FUERA CGCH_02 (sin georreferenciación válida: bounds en el golfo de Adén) y CGCH_04 (copia byte a byte de CGCH_06).",
   "mapas": [
     {
       "id": "geo_F19_pichibelco",
@@ -2832,6 +2832,216 @@
       "leyenda": null,
       "opacidad": 1.0,
       "autor": "",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_GB_124_TextoyMapa",
+      "titulo": "Geología del área Puerto Ingeniero Ibáñez-Villa Cerro Castillo",
+      "region": "Región Aisén del General Carlos Ibáñez del Campo",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2010",
+      "escala": "1:100.000",
+      "informe": "GB-124",
+      "bounds": {
+        "n": -46.000518,
+        "s": -46.499513,
+        "e": -71.581533,
+        "w": -72.333217
+      },
+      "overlay": "overlays/CGCH_GB_124_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_124_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "David Quiroz P., Zane Bruce",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_GB_130_TextoyMapa",
+      "titulo": "Geología del Volcán Calbuco",
+      "region": "Región de Los Lagos",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2011",
+      "escala": "1:50.000",
+      "informe": "GB-130",
+      "bounds": {
+        "n": -41.200309,
+        "s": -41.466398,
+        "e": -72.45028,
+        "w": -72.799628
+      },
+      "overlay": "overlays/CGCH_GB_130_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_130_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Daniel Sellés M., Hugo Moreno R.",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_GB_131_TextoyMapa",
+      "titulo": "Geología del Volcán Láscar",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2011",
+      "escala": "1:50.000",
+      "informe": "GB-131",
+      "bounds": {
+        "n": -23.283516,
+        "s": -23.466485,
+        "e": -67.633698,
+        "w": -67.999636
+      },
+      "overlay": "overlays/CGCH_GB_131_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_131_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Moyra Gardeweg P., Álvaro Amigo R., Stephen J. Matthews, R. Stephen J. Sparks, Jorge Clavero R.",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_GB_148_TextoyMapa",
+      "titulo": "Geología del área Collacagua-Rinconada",
+      "region": "Región de Tarapacá",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2013",
+      "escala": "1:100.000",
+      "informe": "GB-148",
+      "bounds": {
+        "n": -20.000554,
+        "s": -20.499436,
+        "e": -68.500562,
+        "w": -68.999448
+      },
+      "overlay": "overlays/CGCH_GB_148_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_148_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Moyra Gardeweg P., Daniel Sellés M.",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_GB_174_TextoyMapa",
+      "titulo": "Carta Mamiña",
+      "region": "Región de Tarapacá",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2015",
+      "escala": "1:100.000",
+      "informe": "GB-174",
+      "bounds": {
+        "n": -20.000618,
+        "s": -20.499383,
+        "e": -69.000615,
+        "w": -69.499409
+      },
+      "overlay": "overlays/CGCH_GB_174_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_174_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Marco A. Ladino U.",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_GB_195_196_TextoyMapa",
+      "titulo": "Cartas Guanillos del Norte y Salar de Llamara",
+      "region": "Región de Tarapacá",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2018",
+      "escala": "1:100.000",
+      "informe": "GB-195-196",
+      "bounds": {
+        "n": -21.000308,
+        "s": -21.499119,
+        "e": -69.500831,
+        "w": -70.249187
+      },
+      "overlay": "overlays/CGCH_GB_195_196_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_195_196_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Paulina Vásquez I., Sebastián Aguilef C., Fernando A. Sepúlveda V., Carolina Franco M., Andrés Quezada J., Nicolás Blanco P.",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_GB_223_224_TextoyMapa",
+      "titulo": "Geología de las áreas La Unión-Quilacahuín y Río Colún",
+      "region": "Región de Los Ríos",
+      "categoria": "geologia_basica",
+      "fuente": "SERNAGEOMIN — Carta Geológica de Chile, Serie Geología Básica",
+      "anio": "2025",
+      "escala": "1:100.000",
+      "informe": "GB-223-224",
+      "bounds": {
+        "n": -40.000198,
+        "s": -40.499046,
+        "e": -73.00083,
+        "w": -73.782581
+      },
+      "overlay": "overlays/CGCH_GB_223_224_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_GB_223_224_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Felipe Carrasco R., Paola Ramírez C., Paul Duhart O., José Luis Antinao R., Mauricio Mella B., Jamie Clayton, David Quiroz P., Sara Elgueta D., Carlos Venegas B., Michael McDonough",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_39_TextoyMapa",
+      "titulo": "Geología de la Hoja Santiago",
+      "region": "Región Metropolitana de Santiago",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1980",
+      "escala": "1:250.000",
+      "informe": "CGCH-39",
+      "bounds": {
+        "n": -33.004642,
+        "s": -34.000858,
+        "e": -69.75369,
+        "w": -70.750954
+      },
+      "overlay": "overlays/CGCH_39_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_39_TextoyMapa_leyenda.jpg",
+      "opacidad": 1,
+      "autor": "Ricardo Thiele C.",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_68_TextoyMapa",
+      "titulo": "Hoja Pisco Elqui",
+      "region": "Región de Coquimbo",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1988",
+      "escala": "1:250.000",
+      "informe": "CGCH-68",
+      "bounds": {
+        "n": -30.004449,
+        "s": -31.003133,
+        "e": -69.75506,
+        "w": -70.750725
+      },
+      "overlay": "overlays/CGCH_68_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_68_TextoyMapa_leyenda.jpg",
+      "opacidad": 1,
+      "autor": "Constantino Mpodozis M., Paula Cornejo P.",
+      "rev": "2026-10-15"
+    },
+    {
+      "id": "CGCH_69_TextoyMapa",
+      "titulo": "Hoja Illapel",
+      "region": "Región de Coquimbo",
+      "categoria": "geologia",
+      "fuente": "Instituto de Investigaciones Geológicas (hoy SERNAGEOMIN) — Carta Geológica de Chile",
+      "anio": "1991",
+      "escala": "1:250.000",
+      "informe": "CGCH-69",
+      "bounds": {
+        "n": -31.00477,
+        "s": -32.002879,
+        "e": -70.170488,
+        "w": -71.749855
+      },
+      "overlay": "overlays/CGCH_69_TextoyMapa.webp",
+      "leyenda": "leyendas/CGCH_69_TextoyMapa_leyenda.jpg",
+      "opacidad": 1,
+      "autor": "S. Rivano G., P. Sepúlveda H.",
       "rev": "2026-10-15"
     }
   ]
