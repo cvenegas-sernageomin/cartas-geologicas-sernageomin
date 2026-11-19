@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-15",
-  "nota": "2026-10-15: +10 cartas (GB-124, 130, 131, 148, 174, 195-196, 223-224 y CGCH-39, 68, 69): las GB con GDB del portal se registraron sobre la lámina; GB-131, 148 y 174 (sin GDB) por el marco impreso; GB-127 recortada al marco. 2026-10-14: +44 cartas de la serie Geología Básica (GB-74 a GB-120), georreferenciadas con las GDB oficiales de SERNAGEOMIN (los contactos de la GDB se registraron sobre la lámina; el marco se midió en la lámina) y recortadas al marco; las GDB de GB-106 y GB-115 venían sin el desfase PSAD56→WGS84 y se corrigieron. Incluye GB-109 y GB-117, georreferenciadas con la grilla UTM impresa. 2026-10-12: 5 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. 2026-10-10: 44 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220). Re-georreferenciadas a mano (2026-08-28) las 5 que se habian excluido por bounds erroneos: se detecto que la hoja compuesta trae mini-mapas de referencia (mapa de ubicacion, trabajos anteriores, cuadro de situacion) con su PROPIA grilla de coordenadas dentro del mismo rango de valores plausibles que el mapa principal, confundiendo el ajuste automatico; se filtraron las etiquetas espurias a mano por posicion en pixeles usando las coordenadas del propio PDF fuente (texto vectorial, no OCR) -- error final del ajuste bajo 135 m en las 5, contra 100+ km antes. | 2026-09-04: correccion de georreferenciacion en 10 cartas (13 ejes), medida contra la grilla UTM impresa en el datum que DECLARA cada hoja (cajetin \"Referencia geodesica\" del PDF fuente). Se corrigio la causa de fondo: 9 hojas se habian ajustado con un datum distinto al declarado, lo que las dejaba corridas ~185 m en E y/o ~375 m en N. Solo se corrigio un eje cuando su medicion era confiable (desviacion estandar <= 40 m sobre >= 4 lineas de grilla); los ejes cuya grilla no se puede leer quedaron sin tocar y estan derivados a revision manual. | 2026-09-17: +19 cartas de la serie original Carta Geológica de Chile del Instituto de Investigaciones Geológicas (1959-1978), escalas 1:50.000 a 1:250.000, georreferenciadas por Claudio Ortega. Título/año/escala/autor transcritos de la portada de cada publicación (los PDF son escaneados con OCR, así que ningún campo sale de un regex); el catálogo oficial impreso en CGCH_26 y CGCH_28 sirvió de contraste. GEORREFERENCIACIÓN SIN VERIFICAR contra la grilla UTM impresa: el lineage ArcGIS declara dos transformaciones de datum distintas dentro del mismo lote (PSAD_1956_To_WGS_1984_15 al norte de 26°S, _16 al sur). CGCH_05 llegó en PSAD56/UTM19S pese al nombre de la carpeta y se reproyectó a WGS84 con \"PSAD56 to WGS 84 (16)\", la que PROJ elige para esa área y la misma que declaran sus hojas vecinas. Traslapes a propósito: CGCH_21_22 cae dentro de GB-162-163 (más resolución) y CGCH_26 (1:250.000) contiene a GB-183-184 y GB-187-188. Quedan FUERA CGCH_02 (sin georreferenciación válida: bounds en el golfo de Adén) y CGCH_04 (copia byte a byte de CGCH_06).",
+  "version": "2026-11-19",
+  "nota": "2026-11-19: +19 mapas de la serie Mapas Geológicos (N°1-19, 1996-2000) y el Boletín 52 (Planchón-Peteroa), registrados sobre la lámina con la GDB o el shapefile del portal; MG-2 (San Antonio-Melipilla) con el desfase de datum duplicado de su GDB corregido. 2026-10-15: +10 cartas (GB-124, 130, 131, 148, 174, 195-196, 223-224 y CGCH-39, 68, 69): las GB con GDB del portal se registraron sobre la lámina; GB-131, 148 y 174 (sin GDB) por el marco impreso; GB-127 recortada al marco. 2026-10-14: +44 cartas de la serie Geología Básica (GB-74 a GB-120), georreferenciadas con las GDB oficiales de SERNAGEOMIN (los contactos de la GDB se registraron sobre la lámina; el marco se midió en la lámina) y recortadas al marco; las GDB de GB-106 y GB-115 venían sin el desfase PSAD56→WGS84 y se corrigieron. Incluye GB-109 y GB-117, georreferenciadas con la grilla UTM impresa. 2026-10-12: 5 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. 2026-10-10: 44 cartas corregidas (georreferencia auditada contra los SIG oficiales de SERNAGEOMIN y el relieve SRTM; overlays recortados al marco; leyendas GB-207 y GB-161 rehechas). La serie antigua CGCH no se modifica. Campo rev = fecha de la última corrección. Piloto Maule (9 mapas, 2026-08-25) + 39 cartas adicionales verificadas del proyecto Georef (2026-08-28): titulo/region/informe/escala/anio/autores extraidos verbatim de la portada oficial de cada leyenda. Se excluyeron del lote original: 5 cartas con bounds erroneos (locator inset confundido con la grilla real, mismo bug de GB-123 corregido antes) -- GB-137, GB-161, GB-183-184, GB-187-188, GB-207 -- y 2 duplicados exactos de cartas ya presentes en el piloto Maule (GB-214, GB-220). Re-georreferenciadas a mano (2026-08-28) las 5 que se habian excluido por bounds erroneos: se detecto que la hoja compuesta trae mini-mapas de referencia (mapa de ubicacion, trabajos anteriores, cuadro de situacion) con su PROPIA grilla de coordenadas dentro del mismo rango de valores plausibles que el mapa principal, confundiendo el ajuste automatico; se filtraron las etiquetas espurias a mano por posicion en pixeles usando las coordenadas del propio PDF fuente (texto vectorial, no OCR) -- error final del ajuste bajo 135 m en las 5, contra 100+ km antes. | 2026-09-04: correccion de georreferenciacion en 10 cartas (13 ejes), medida contra la grilla UTM impresa en el datum que DECLARA cada hoja (cajetin \"Referencia geodesica\" del PDF fuente). Se corrigio la causa de fondo: 9 hojas se habian ajustado con un datum distinto al declarado, lo que las dejaba corridas ~185 m en E y/o ~375 m en N. Solo se corrigio un eje cuando su medicion era confiable (desviacion estandar <= 40 m sobre >= 4 lineas de grilla); los ejes cuya grilla no se puede leer quedaron sin tocar y estan derivados a revision manual. | 2026-09-17: +19 cartas de la serie original Carta Geológica de Chile del Instituto de Investigaciones Geológicas (1959-1978), escalas 1:50.000 a 1:250.000, georreferenciadas por Claudio Ortega. Título/año/escala/autor transcritos de la portada de cada publicación (los PDF son escaneados con OCR, así que ningún campo sale de un regex); el catálogo oficial impreso en CGCH_26 y CGCH_28 sirvió de contraste. GEORREFERENCIACIÓN SIN VERIFICAR contra la grilla UTM impresa: el lineage ArcGIS declara dos transformaciones de datum distintas dentro del mismo lote (PSAD_1956_To_WGS_1984_15 al norte de 26°S, _16 al sur). CGCH_05 llegó en PSAD56/UTM19S pese al nombre de la carpeta y se reproyectó a WGS84 con \"PSAD56 to WGS 84 (16)\", la que PROJ elige para esa área y la misma que declaran sus hojas vecinas. Traslapes a propósito: CGCH_21_22 cae dentro de GB-162-163 (más resolución) y CGCH_26 (1:250.000) contiene a GB-183-184 y GB-187-188. Quedan FUERA CGCH_02 (sin georreferenciación válida: bounds en el golfo de Adén) y CGCH_04 (copia byte a byte de CGCH_06).",
   "mapas": [
     {
       "id": "geo_F19_pichibelco",
@@ -3043,6 +3043,405 @@
       "opacidad": 1,
       "autor": "S. Rivano G., P. Sepúlveda H.",
       "rev": "2026-10-15"
+    },
+    {
+      "id": "MapGeo_05_06_TextoyMapa",
+      "titulo": "Hojas Chañaral y Diego de Almagro",
+      "region": "Región de Atacama",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°5-6",
+      "anio": "1998",
+      "escala": "1:100.000",
+      "informe": "MG-5-6",
+      "bounds": {
+        "n": -26.003314,
+        "s": -26.502437,
+        "e": -70.002609,
+        "w": -71.001148
+      },
+      "overlay": "overlays/MapGeo_05_06_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_05_06_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Estanislao Godoy P.-B., Luis Lara P.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_04_TextoyMapa",
+      "titulo": "Hoja Quebrada Salitrosa",
+      "region": "Región de Atacama",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°4",
+      "anio": "1998",
+      "escala": "1:100.000",
+      "informe": "MG-4",
+      "bounds": {
+        "n": -26.504055,
+        "s": -27.002841,
+        "e": -70.002378,
+        "w": -70.501311
+      },
+      "overlay": "overlays/MapGeo_04_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_04_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Luis Lara P., Estanislao Godoy P.-B.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_15_TextoyMapa",
+      "titulo": "Hoja Puerto Flamenco",
+      "region": "Región de Atacama",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°15",
+      "anio": "1999",
+      "escala": "1:100.000",
+      "informe": "MG-15",
+      "bounds": {
+        "n": -26.503783,
+        "s": -27.003042,
+        "e": -70.502365,
+        "w": -71.001734
+      },
+      "overlay": "overlays/MapGeo_15_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_15_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Estanislao Godoy P.-B., Luis Lara P.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_14_TextoyMapa",
+      "titulo": "Hoja Potrerillos",
+      "region": "Región de Atacama",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°14",
+      "anio": "1999",
+      "escala": "1:100.000",
+      "informe": "MG-14",
+      "bounds": {
+        "n": -26.003938,
+        "s": -26.503024,
+        "e": -69.002247,
+        "w": -69.501432
+      },
+      "overlay": "overlays/MapGeo_14_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_14_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Andrew J. Tomlinson, Paula Cornejo P., Constantino Mpodozis M.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_07_TextoyMapa",
+      "titulo": "Hoja Salar de Maricunga",
+      "region": "Región de Atacama",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°7",
+      "anio": "1998",
+      "escala": "1:100.000",
+      "informe": "MG-7",
+      "bounds": {
+        "n": -26.504425,
+        "s": -27.003019,
+        "e": -69.002695,
+        "w": -69.501433
+      },
+      "overlay": "overlays/MapGeo_07_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_07_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Paula Cornejo P., Constantino Mpodozis M., Andrew J. Tomlinson",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_13_TextoyMapa",
+      "titulo": "Hoja La Guardia",
+      "region": "Región de Atacama",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°13",
+      "anio": "1999",
+      "escala": "1:100.000",
+      "informe": "MG-13",
+      "bounds": {
+        "n": -27.504331,
+        "s": -28.00324,
+        "e": -69.502271,
+        "w": -70.001234
+      },
+      "overlay": "overlays/MapGeo_13_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_13_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Sergio Iriarte D., Carlos Arévalo V., Constantino Mpodozis M.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_19_TextoyMapa",
+      "titulo": "Hoja Palestina",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°19",
+      "anio": "2000",
+      "escala": "1:100.000",
+      "informe": "MG-19",
+      "bounds": {
+        "n": -23.503936,
+        "s": -24.00288,
+        "e": -69.502422,
+        "w": -70.001288
+      },
+      "overlay": "overlays/MapGeo_19_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_19_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Joaquín A. Cortés C.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_09_TextoyMapa",
+      "titulo": "Hoja Pampa Unión",
+      "region": "Región de Antofagasta",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°9",
+      "anio": "1999",
+      "escala": "1:100.000",
+      "informe": "MG-9",
+      "bounds": {
+        "n": -23.004002,
+        "s": -23.503012,
+        "e": -69.002079,
+        "w": -69.501056
+      },
+      "overlay": "overlays/MapGeo_09_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_09_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Nicolás Marinovic S., Marcelo García G.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_03_TextoyMapa",
+      "titulo": "Mapa geológico de la Hoja Carrera Pinto",
+      "region": "Región de Atacama",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°3",
+      "anio": "1996",
+      "escala": "1:100.000",
+      "informe": "MG-3",
+      "bounds": {
+        "n": -27.00436,
+        "s": -27.502915,
+        "e": -69.502476,
+        "w": -70.001782
+      },
+      "overlay": "overlays/MapGeo_03_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_03_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Sergio Iriarte D., Carlos Arévalo V., Constantino Mpodozis M., Orlando Rivera H.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_18_TextoyMapa",
+      "titulo": "Área La Serena-La Higuera",
+      "region": "Región de Coquimbo",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°18",
+      "anio": "2000",
+      "escala": "1:100.000",
+      "informe": "MG-18",
+      "bounds": {
+        "n": -29.503898,
+        "s": -30.002844,
+        "e": -71.002332,
+        "w": -71.501677
+      },
+      "overlay": "overlays/MapGeo_18_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_18_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Carlos Emparan C., Germán Pineda F.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_12_TextoyMapa",
+      "titulo": "Área Condoriaco-Rivadavia",
+      "region": "Región de Coquimbo",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°12",
+      "anio": "1999",
+      "escala": "1:100.000",
+      "informe": "MG-12",
+      "bounds": {
+        "n": -29.504124,
+        "s": -30.003193,
+        "e": -70.502011,
+        "w": -71.00127
+      },
+      "overlay": "overlays/MapGeo_12_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_12_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Carlos Emparán C., Germán Pineda F.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_01_TextoyMapa",
+      "titulo": "Mapa geológico del área de Valparaíso-Curacaví",
+      "region": "Región de Valparaíso",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°1",
+      "anio": "1996",
+      "escala": "1:100.000",
+      "informe": "MG-1",
+      "bounds": {
+        "n": -33.003731,
+        "s": -33.50285,
+        "e": -71.002845,
+        "w": -71.751844
+      },
+      "overlay": "overlays/MapGeo_01_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_01_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Paulina Gana F., Renate Wall Z., Alvaro Gutiérrez P.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_02_TextoyMapa",
+      "titulo": "Mapa geológico del área de San Antonio-Melipilla",
+      "region": "Región de Valparaíso",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°2",
+      "anio": "1996",
+      "escala": "1:100.000",
+      "informe": "MG-2",
+      "bounds": {
+        "n": -33.503139,
+        "s": -34.002471,
+        "e": -71.002782,
+        "w": -71.898864
+      },
+      "overlay": "overlays/MapGeo_02_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_02_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Renate Wall Z., Paulina Gana F., Alvaro Gutiérrez P.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_11_TextoyMapa",
+      "titulo": "Área Tiltil-Santiago",
+      "region": "Región Metropolitana de Santiago",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°11",
+      "anio": "1999",
+      "escala": "1:100.000",
+      "informe": "MG-11",
+      "bounds": {
+        "n": -33.004017,
+        "s": -33.502895,
+        "e": -70.502692,
+        "w": -71.001537
+      },
+      "overlay": "overlays/MapGeo_11_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_11_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Renate Wall Z., Daniel Sellés M., Paulina Gana F.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_10_TextoyMapa",
+      "titulo": "Área de Panguipulli-Riñihue",
+      "region": "Región de Los Ríos",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°10",
+      "anio": "1999",
+      "escala": "1:100.000",
+      "informe": "MG-10",
+      "bounds": {
+        "n": -39.503837,
+        "s": -40.002633,
+        "e": -72.002785,
+        "w": -72.501939
+      },
+      "overlay": "overlays/MapGeo_10_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_10_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Carolina Rodríguez S., Yasna Pérez D., Hugo Moreno R., James D. Clayton, José Luis Antinao R., Paul Duhart O., Mark Martin",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_17_TextoyMapa",
+      "titulo": "Área de Ancud-Maullín",
+      "region": "Región de Los Lagos",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°17",
+      "anio": "2000",
+      "escala": "1:100.000",
+      "informe": "MG-17",
+      "bounds": {
+        "n": -41.503983,
+        "s": -42.002497,
+        "e": -73.50311,
+        "w": -74.085162
+      },
+      "overlay": "overlays/MapGeo_17_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_17_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "José Luis Antinao R., Paul Duhart O., James D. Clayton, Sara Elgueta D., Michael McDonough",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_16_TextoyMapa",
+      "titulo": "Área de Pargua-Calbuco",
+      "region": "Región de Los Lagos",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°16",
+      "anio": "2000",
+      "escala": "1:100.000",
+      "informe": "MG-16",
+      "bounds": {
+        "n": -41.504402,
+        "s": -42.003483,
+        "e": -73.003036,
+        "w": -73.502119
+      },
+      "overlay": "overlays/MapGeo_16_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_16_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "James Clayton, José Luis Antinao R.",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "MapGeo_08_TextoyMapa",
+      "titulo": "Área de Futrono-Lago Ranco",
+      "region": "Región de Los Ríos",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Mapas Geológicos N°8",
+      "anio": "1998",
+      "escala": "1:100.000",
+      "informe": "MG-8",
+      "bounds": {
+        "n": -40.00367,
+        "s": -40.502818,
+        "e": -72.002734,
+        "w": -72.502149
+      },
+      "overlay": "overlays/MapGeo_08_TextoyMapa.webp",
+      "leyenda": "leyendas/MapGeo_08_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "Alberto Campos C., Hugo Moreno R., Jorge Muñoz B., José Luis Antinao R., James D. Clayton, Mark W. Martin",
+      "rev": "2026-11-19"
+    },
+    {
+      "id": "BOL_52_TextoyMapa",
+      "titulo": "Geología y peligros del complejo volcánico Planchón-Peteroa",
+      "region": "Región del Maule",
+      "categoria": "geologia",
+      "fuente": "SERNAGEOMIN — Boletín N°52",
+      "anio": "1999",
+      "escala": "1:100.000",
+      "informe": "BOL-52",
+      "bounds": {
+        "n": -34.782668,
+        "s": -35.345679,
+        "e": -70.434773,
+        "w": -71.329407
+      },
+      "overlay": "overlays/BOL_52_TextoyMapa.webp",
+      "leyenda": "leyendas/BOL_52_TextoyMapa_leyenda.jpg",
+      "opacidad": 1.0,
+      "autor": "José Antonio Naranjo S., Miguel J. Haller, Abel Pesce H., Patricia Sruoga",
+      "rev": "2026-11-19"
     }
   ]
 }
