@@ -18,6 +18,7 @@
         "w": -72.501094
       },
       "overlay": "overlays/geo_F19_pichibelco.webp",
+      "pmtiles": "pmtiles/geo_F19_pichibelco.pmtiles",
       "leyenda": "leyendas/geo_F19_pichibelco.jpg",
       "opacidad": 1.0,
       "rev": "2026-10-10"
@@ -2400,6 +2401,7 @@
         "w": -69.384987
       },
       "overlay": "overlays/CGCH_GB_101_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_101_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_101_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Jorge Clavero R., R. Steve J. Sparks, Edmundo Polanco V.",
@@ -2999,6 +3001,7 @@
         "w": -70.750954
       },
       "overlay": "overlays/CGCH_39_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_39_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_39_TextoyMapa_leyenda.jpg",
       "opacidad": 1,
       "autor": "Ricardo Thiele C.",
