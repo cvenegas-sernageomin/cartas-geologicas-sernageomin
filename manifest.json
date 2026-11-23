@@ -39,6 +39,7 @@
         "w": -71.499398
       },
       "overlay": "overlays/geo_F21_GB220.webp",
+      "pmtiles": "pmtiles/geo_F21_raster.pmtiles",
       "leyenda": "leyendas/geo_F21_GB220_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Juan Pablo Contreras F., José Escribano A., Fernando Sepúlveda V., Rita de la Cruz S.",
@@ -199,6 +200,7 @@
         "w": -70.001901
       },
       "overlay": "overlays/CGCH_GB_121_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_121_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_121_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Stephen J. Matthews, Felipe Espinoza G., Paula Cornejo P., Carlos Venegas B.",
@@ -220,6 +222,7 @@
         "w": -73.001976
       },
       "overlay": "overlays/CGCH_GB_122_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_122_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_122_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Mauricio Mella B., David Quiroz P.",
@@ -241,6 +244,7 @@
         "w": -68.585138
       },
       "overlay": "overlays/CGCH_GB_123_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_123_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_123_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "José A. Naranjo S.",
@@ -262,6 +266,7 @@
         "w": -73.0
       },
       "overlay": "overlays/CGCH_GB_125_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_125_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_125_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "David Quiroz P., Mauricio Belmar U.",
@@ -283,6 +288,7 @@
         "w": -72.685894
       },
       "overlay": "overlays/CGCH_GB_126_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_126_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_126_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Hugo Moreno R., Luis Lara P., Gabriel Orozco L.",
@@ -304,6 +310,7 @@
         "w": -72.333333
       },
       "overlay": "overlays/CGCH_GB_127_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_127_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_127_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Rita De la Cruz S., Joaquín Cortés C.",
@@ -325,6 +332,7 @@
         "w": -72.5
       },
       "overlay": "overlays/CGCH_GB_128_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_128_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_128_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Carolina Jara I., Hugo Moreno R., Mauricio Mella B., Paul Duhart O.",
@@ -346,6 +354,7 @@
         "w": -70.001894
       },
       "overlay": "overlays/CGCH_GB_129_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_129_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_129_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Felipe Espinoza G., Stephen J. Matthews, Paula Cornejo P., Carlos Venegas B.",
@@ -367,6 +376,7 @@
         "w": -69.385244
       },
       "overlay": "overlays/CGCH_GB_132_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_132_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_132_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Jorge Clavero R., R. Steve J. Sparks, Edmundo Polanco V.",
@@ -388,6 +398,7 @@
         "w": -71.59211
       },
       "overlay": "overlays/CGCH_GB_133_134_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_133_134_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_133_134_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Christian Creixell T., Miguel Ortiz L., Carlos Arévalo V.",
@@ -409,6 +420,7 @@
         "w": -69.85
       },
       "overlay": "overlays/CGCH_GB_135_136_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_135_136_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_135_136_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "M. García, J. Clavero, M. Gardeweg"
@@ -429,6 +441,7 @@
         "w": -69.999304
       },
       "overlay": "overlays/CGCH_GB_138_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_138_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_138_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Felipe Espinoza G., Stephen J. Matthews, Paula Cornejo P.",
@@ -450,6 +463,7 @@
         "w": -68.999614
       },
       "overlay": "overlays/CGCH_GB_139_140_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_139_140_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_139_140_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Jorge Clavero R., Constantino Mpodozis M., Moyra Gardeweg P., Millarca Valenzuela P.",
@@ -492,6 +506,7 @@
         "w": -68.99933
       },
       "overlay": "overlays/CGCH_GB_144_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_144_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_144_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Joaquín Cortés C.",
@@ -513,6 +528,7 @@
         "w": -69.499337
       },
       "overlay": "overlays/CGCH_GB_145_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_145_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_145_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Constantino Mpodozis M., Sergio Iriarte D., Moyra Gardeweg P., Millarca Valenzuela P.",
@@ -555,6 +571,7 @@
         "w": -70.573271
       },
       "overlay": "overlays/CGCH_GB_164_165_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_164_165_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_164_165_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "José Escribano A., Paola Martínez E., Jan Domagala, Maxime Padel, Mauricio Espinoza V., Rodrigo Jorquera B., Juan Pablo Contreras F., Rita De La Cruz S., Mauricio Calderón N.",
@@ -576,6 +593,7 @@
         "w": -70.498485
       },
       "overlay": "overlays/CGCH_GB_169_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_169_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_169_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Mauricio Espinoza V., Juan Pablo Contreras F., Rodrigo Jorquera B., Rita De La Cruz S., Stefan Kraus, Cristián Ramírez S., José A. Naranjo S."
@@ -596,6 +614,7 @@
         "w": -70.498866
       },
       "overlay": "overlays/CGCH_GB_175_176_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_175_176_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_175_176_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Miguel Ortiz L., Roberto N. Merino G.",
@@ -617,6 +636,7 @@
         "w": -69.0
       },
       "overlay": "overlays/CGCH_GB_182_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_182_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_182_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Daniel Sellés M., Moyra Gardeweg P., Nicolás Garibaldi M.",
@@ -638,6 +658,7 @@
         "w": -68.999535
       },
       "overlay": "overlays/CGCH_GB_185_186_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_185_186_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_185_186_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "José Antonio Naranjo S., Cristián Ramírez S., Víctor Villa C.",
@@ -659,6 +680,7 @@
         "w": -69.498502
       },
       "overlay": "overlays/CGCH_GB_189_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_189_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_189_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Natalia Astudillo L., Rodolfo Ferrando U., Diego Montecino J., Felipe Espinoza G., Carlos Venegas B., Stephen J. Matthews, Paula Cornejo P., Carlos Arévalo V."
@@ -679,6 +701,7 @@
         "w": -70.499231
       },
       "overlay": "overlays/CGCH_GB_192_193_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_192_193_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_192_193_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Ismael Murillo R., Ricardo Velásquez H., Christian Creixell T.",
@@ -700,6 +723,7 @@
         "w": -69.498992
       },
       "overlay": "overlays/CGCH_GB_198_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_198_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_198_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Paul Duhart O., Jorge Muñoz B., David Quiroz P., Andrés Mestre M., Gabriel Varas M."
@@ -720,6 +744,7 @@
         "w": -68.999719
       },
       "overlay": "overlays/CGCH_GB_199_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_199_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_199_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., John H. Dilles, Víctor Maksaev J., Marco Ladino U.",
@@ -741,6 +766,7 @@
         "w": -69.499465
       },
       "overlay": "overlays/CGCH_GB_200_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_200_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_200_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Constantino Mpodozis M., Jorge Clavero R., Rodrigo Quiroga C., Bárbara Droguett V., Rodrigo Arcos R.",
@@ -762,6 +788,7 @@
         "w": -68.633126
       },
       "overlay": "overlays/CGCH_GB_201_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_201_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_201_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Daniel Bertin U., Álvaro Amigo R.",
@@ -783,6 +810,7 @@
         "w": -68.999788
       },
       "overlay": "overlays/CGCH_GB_202_203_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_202_203_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_202_203_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Víctor Villa C., Cristián Ramírez S., Rodolfo Ferrando U., Diego Montecino J., Marcos Lienlaf L.",
@@ -825,6 +853,7 @@
         "w": -69.998887
       },
       "overlay": "overlays/CGCH_GB_206_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_206_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_206_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Luis Baeza A., Natalia Astudillo L."
@@ -845,6 +874,7 @@
         "w": -72.999158
       },
       "overlay": "overlays/CGCH_GB_210_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_210_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_210_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "David Quiroz P., Mauricio Mella B., Hugo Moreno R., Paul Duhart O., Felipe Carrasco R., Carolina Miralles G.",
@@ -866,6 +896,7 @@
         "w": -70.49934
       },
       "overlay": "overlays/CGCH_GB_211_212_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_211_212_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_211_212_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Ricardo Velásquez H., Felipe Coloma B., Ismael Murillo R., Roberto Merino G., Miguel Ortiz L.",
@@ -887,6 +918,7 @@
         "w": -68.499586
       },
       "overlay": "overlays/CGCH_GB_215_216_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_215_216_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_215_216_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Pamela Álvarez, Maisa Tunik, Laura Giambiagi, Carolina Rodríguez S.",
@@ -908,6 +940,7 @@
         "w": -69.475386
       },
       "overlay": "overlays/CGCH_GB_217_218_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_217_218_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_217_218_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Bárbara Droguett V., Jorge Clavero R., Pamela Álvarez, Valentina Ramírez L.",
@@ -929,6 +962,7 @@
         "w": -71.883625
       },
       "overlay": "overlays/CGCH_GB_219_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_219_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_219_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Hugo Moreno R., José A. Naranjo S., Edmundo Polanco V.",
@@ -950,6 +984,7 @@
         "w": -69.999519
       },
       "overlay": "overlays/Cerros_de_Cantaritos_Laguna_Chica.webp",
+      "pmtiles": "pmtiles/Cerros_de_Cantaritos_Laguna_Chica.pmtiles",
       "leyenda": "leyendas/Cerros_de_Cantaritos_Laguna_Chica_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Esteban Salazar P., Felipe Coloma B.",
@@ -971,6 +1006,7 @@
         "w": -70.499326
       },
       "overlay": "overlays/El_Transito_Lagunillas.webp",
+      "pmtiles": "pmtiles/El_Transito_Lagunillas.pmtiles",
       "leyenda": "leyendas/El_Transito_Lagunillas_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Esteban Salazar P., Felipe Coloma B., Christian Creixell T.",
@@ -992,6 +1028,7 @@
         "w": -71.712042
       },
       "overlay": "overlays/Ovalle_y_Peña_Blanca.webp",
+      "pmtiles": "pmtiles/Ovalle_y_Peña_Blanca.pmtiles",
       "leyenda": "leyendas/Ovalle_y_Peña_Blanca_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Felipe Coloma B., Javier Álvarez A., Christian Creixell T., Carlos Emparán C., Esteban Salazar P., Mauricio Calderón N.",
@@ -1013,6 +1050,7 @@
         "w": -73.750754
       },
       "overlay": "overlays/CGCH_GB_137_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_137_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_137_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "rev": "2026-10-10"
@@ -1033,6 +1071,7 @@
         "w": -70.743068
       },
       "overlay": "overlays/CGCH_GB_161_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_161_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_161_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "rev": "2026-10-10"
@@ -1053,6 +1092,7 @@
         "w": -70.579421
       },
       "overlay": "overlays/CGCH_GB_183_184_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_183_184_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_183_184_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "rev": "2026-10-10"
@@ -1073,6 +1113,7 @@
         "w": -70.5637
       },
       "overlay": "overlays/CGCH_GB_187_188_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_187_188_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_187_188_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "rev": "2026-10-10"
@@ -1093,6 +1134,7 @@
         "w": -68.999769
       },
       "overlay": "overlays/CGCH_GB_207_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_207_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_207_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "rev": "2026-10-10"
@@ -1113,6 +1155,7 @@
         "w": -70.266515
       },
       "overlay": "overlays/CGCH_01_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_01_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_01_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Kenneth Segerstrom"
@@ -1293,6 +1336,7 @@
         "w": -71.015598
       },
       "overlay": "overlays/CGCH_15_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_15_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_15_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Luis Aguirre Le-Bert y Ernesto Egert Ruiz"
@@ -1393,6 +1437,7 @@
         "w": -71.013185
       },
       "overlay": "overlays/CGCH_23_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_23_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_23_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Luis Aguirre Le-Bert y Ernesto Egert Ruiz"
@@ -1493,6 +1538,7 @@
         "w": -73.048994
       },
       "overlay": "overlays/CGCH_29_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_29_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_29_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Jorge Skármeta M."
@@ -1673,6 +1719,7 @@
         "w": -70.317547
       },
       "overlay": "overlays/CGCH_GB_146_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_146_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_146_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Marcelo García G., Guillermo Fuentes E.",
@@ -1694,6 +1741,7 @@
         "w": -70.999411
       },
       "overlay": "overlays/CGCH_GB_150_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_150_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_150_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Christian Creixell T., Mariana Labbé R., Carlos Arévalo V., Esteban Salazar P.",
@@ -1715,6 +1763,7 @@
         "w": -69.498549
       },
       "overlay": "overlays/M207_Sierra_Vaquillas_Altas.webp",
+      "pmtiles": "pmtiles/M207_Sierra_Vaquillas_Altas.pmtiles",
       "leyenda": "leyendas/M207_Sierra_Vaquillas_Altas_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "C. Venegas, M. Cervetto, N. Astudillo, F. Espinoza, P. Cornejo, C. Mpodozis, O. Rivera"
@@ -1735,6 +1784,7 @@
         "w": -68.49893
       },
       "overlay": "overlays/CGCH_GB_190_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_190_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_190_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Daniel Sellés M., Moyra Gardeweg P."
@@ -1755,6 +1805,7 @@
         "w": -68.999444
       },
       "overlay": "overlays/CGCH_GB_191_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_191_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_191_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Marcelo Solari C., Javier Cortés H., Carlos Venegas B., Benjamín Bahamondes A., Diego Montecino J., Felipe Espinoza G., Natalia Astudillo L."
@@ -1775,6 +1826,7 @@
         "w": -69.499453
       },
       "overlay": "overlays/CGCH_GB_194_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_194_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_194_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Jorge Clavero R., Bárbara Droguett V., Rodrigo Quiroga C., Pamela Álvarez"
@@ -1795,6 +1847,7 @@
         "w": -69.999569
       },
       "overlay": "overlays/CGCH_GB_197_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_197_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_197_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Rodrigo Arcos R., José Antonio Naranjo S., Marco Ladino U., Edmundo Polanco V.",
@@ -1918,6 +1971,7 @@
         "w": -71.251459
       },
       "overlay": "overlays/CGCH_GB_77_78_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_77_78_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_77_78_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Nicolás Blanco P., Estanislao Godoy P-B., Carlos Marquardt R.",
@@ -1939,6 +1993,7 @@
         "w": -74.252329
       },
       "overlay": "overlays/CGCH_GB_79_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_79_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_79_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Manuel Arenas A., Paul Duhart O.",
@@ -1960,6 +2015,7 @@
         "w": -72.333636
       },
       "overlay": "overlays/CGCH_GB_80_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_80_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_80_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Rita De la Cruz S., Manuel Suárez D., Mauricio Belmar U., David Quiroz P., Michael Bell",
@@ -2044,6 +2100,7 @@
         "w": -70.416906
       },
       "overlay": "overlays/CGCH_GB_84_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_84_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_84_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Marcelo García G., Moyra Gardeweg P., Jorge Clavero R., Gérard Hérail",
@@ -2065,6 +2122,7 @@
         "w": -73.252008
       },
       "overlay": "overlays/CGCH_GB_85_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_85_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_85_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Rita De la Cruz S., Daniela Welkner B., Manuel Suárez D., David Quiroz P.",
@@ -2128,6 +2186,7 @@
         "w": -72.032911
       },
       "overlay": "overlays/CGCH_GB_88_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_88_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_88_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "José A. Naranjo S., Hugo Moreno R.",
@@ -2149,6 +2208,7 @@
         "w": -70.751046
       },
       "overlay": "overlays/CGCH_GB_89_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_89_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_89_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Gabriel González L., Hans Niemeyer R.",
@@ -2296,6 +2356,7 @@
         "w": -71.751076
       },
       "overlay": "overlays/CGCH_GB_96_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_96_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_96_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Carlos Emparán C., Germán Pineda F.",
@@ -2317,6 +2378,7 @@
         "w": -71.001304
       },
       "overlay": "overlays/CGCH_GB_97_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_97_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_97_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Germán Pineda F., Carlos Emparán C.",
@@ -2359,6 +2421,7 @@
         "w": -72.42083
       },
       "overlay": "overlays/CGCH_GB_99_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_99_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_99_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Luis Lara P., Hugo Moreno R.",
@@ -2612,6 +2675,7 @@
         "w": -72.333139
       },
       "overlay": "overlays/CGCH_GB_112_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_112_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_112_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Rita De la Cruz S., Manuel Suárez D.",
@@ -2633,6 +2697,7 @@
         "w": -70.16838
       },
       "overlay": "overlays/CGCH_GB_113_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_113_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_113_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Carlos Marquardt R., Nicolás Marinovic S., Violeta Muñoz T.",
@@ -2654,6 +2719,7 @@
         "w": -71.757007
       },
       "overlay": "overlays/CGCH_GB_114_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_114_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_114_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "José A. Naranjo S., Jennie Gilbert R., Stephen J. Sparks",
@@ -2675,6 +2741,7 @@
         "w": -72.001713
       },
       "overlay": "overlays/CGCH_GB_115_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_115_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_115_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Hugo Moreno R., Luis Lara P.",
@@ -2717,6 +2784,7 @@
         "w": -68.751515
       },
       "overlay": "overlays/CGCH_GB_117_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_117_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_117_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Nicolás Blanco P., Andrew J. Tomlinson",
@@ -2738,6 +2806,7 @@
         "w": -71.251371
       },
       "overlay": "overlays/CGCH_GB_118_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_118_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_118_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Estanislao Godoy P-B., Manuel Schilling D., Marcelo Solari C., Andrés Fock K.",
@@ -2759,6 +2828,7 @@
         "w": -69.501363
       },
       "overlay": "overlays/CGCH_GB_119_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_119_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_119_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Paula Cornejo P., Constantino Mpodozis M., Orlando Rivera H., Stephen J. Matthews",
@@ -2780,6 +2850,7 @@
         "w": -71.001252
       },
       "overlay": "overlays/CGCH_GB_120_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_120_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_120_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Carlos Arévalo V., Francisco A. Mourgues O., Rodrigo Chávez M.",
@@ -2854,6 +2925,7 @@
         "w": -72.333217
       },
       "overlay": "overlays/CGCH_GB_124_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_124_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_124_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "David Quiroz P., Zane Bruce",
@@ -2875,6 +2947,7 @@
         "w": -72.799628
       },
       "overlay": "overlays/CGCH_GB_130_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_130_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_130_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Daniel Sellés M., Hugo Moreno R.",
@@ -2896,6 +2969,7 @@
         "w": -67.999636
       },
       "overlay": "overlays/CGCH_GB_131_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_131_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_131_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Moyra Gardeweg P., Álvaro Amigo R., Stephen J. Matthews, R. Stephen J. Sparks, Jorge Clavero R.",
@@ -2917,6 +2991,7 @@
         "w": -68.999448
       },
       "overlay": "overlays/CGCH_GB_148_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_148_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_148_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Moyra Gardeweg P., Daniel Sellés M.",
@@ -2938,6 +3013,7 @@
         "w": -69.499409
       },
       "overlay": "overlays/CGCH_GB_174_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_GB_174_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_GB_174_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Marco A. Ladino U.",
@@ -3044,6 +3120,7 @@
         "w": -71.749855
       },
       "overlay": "overlays/CGCH_69_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_69_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_69_TextoyMapa_leyenda.jpg",
       "opacidad": 1,
       "autor": "S. Rivano G., P. Sepúlveda H.",
@@ -3086,6 +3163,7 @@
         "w": -70.501311
       },
       "overlay": "overlays/MapGeo_04_TextoyMapa.webp",
+      "pmtiles": "pmtiles/MapGeo_04_TextoyMapa.pmtiles",
       "leyenda": "leyendas/MapGeo_04_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Luis Lara P., Estanislao Godoy P.-B.",
@@ -3128,6 +3206,7 @@
         "w": -69.501432
       },
       "overlay": "overlays/MapGeo_14_TextoyMapa.webp",
+      "pmtiles": "pmtiles/MapGeo_14_TextoyMapa.pmtiles",
       "leyenda": "leyendas/MapGeo_14_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Paula Cornejo P., Constantino Mpodozis M.",
@@ -3149,6 +3228,7 @@
         "w": -69.501433
       },
       "overlay": "overlays/MapGeo_07_TextoyMapa.webp",
+      "pmtiles": "pmtiles/MapGeo_07_TextoyMapa.pmtiles",
       "leyenda": "leyendas/MapGeo_07_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Paula Cornejo P., Constantino Mpodozis M., Andrew J. Tomlinson",
@@ -3170,6 +3250,7 @@
         "w": -70.001234
       },
       "overlay": "overlays/MapGeo_13_TextoyMapa.webp",
+      "pmtiles": "pmtiles/MapGeo_13_TextoyMapa.pmtiles",
       "leyenda": "leyendas/MapGeo_13_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Sergio Iriarte D., Carlos Arévalo V., Constantino Mpodozis M.",
@@ -3296,6 +3377,7 @@
         "w": -71.751844
       },
       "overlay": "overlays/MapGeo_01_TextoyMapa.webp",
+      "pmtiles": "pmtiles/MapGeo_01_TextoyMapa.pmtiles",
       "leyenda": "leyendas/MapGeo_01_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Paulina Gana F., Renate Wall Z., Alvaro Gutiérrez P.",
@@ -3317,6 +3399,7 @@
         "w": -71.898864
       },
       "overlay": "overlays/MapGeo_02_TextoyMapa.webp",
+      "pmtiles": "pmtiles/MapGeo_02_TextoyMapa.pmtiles",
       "leyenda": "leyendas/MapGeo_02_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Renate Wall Z., Paulina Gana F., Alvaro Gutiérrez P.",
@@ -3338,6 +3421,7 @@
         "w": -71.001537
       },
       "overlay": "overlays/MapGeo_11_TextoyMapa.webp",
+      "pmtiles": "pmtiles/MapGeo_11_TextoyMapa.pmtiles",
       "leyenda": "leyendas/MapGeo_11_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Renate Wall Z., Daniel Sellés M., Paulina Gana F.",
@@ -3569,6 +3653,7 @@
         "w": -69.001486
       },
       "overlay": "overlays/IR_01_20_05_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_05_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_05_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3590,6 +3675,7 @@
         "w": -68.751204
       },
       "overlay": "overlays/IR_01_20_06_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_06_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_06_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3611,6 +3697,7 @@
         "w": -69.001535
       },
       "overlay": "overlays/IR_01_20_07_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_07_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_07_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3632,6 +3719,7 @@
         "w": -68.751498
       },
       "overlay": "overlays/IR_01_20_08_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_08_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_08_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3674,6 +3762,7 @@
         "w": -69.001518
       },
       "overlay": "overlays/IR_01_20_10_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_10_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_10_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3695,6 +3784,7 @@
         "w": -68.751546
       },
       "overlay": "overlays/IR_01_20_11_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_11_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_11_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3737,6 +3827,7 @@
         "w": -69.00151
       },
       "overlay": "overlays/IR_01_20_13_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_13_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_13_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3758,6 +3849,7 @@
         "w": -68.751512
       },
       "overlay": "overlays/IR_01_20_14_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_14_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_14_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3779,6 +3871,7 @@
         "w": -69.25157
       },
       "overlay": "overlays/IR_01_20_15_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_15_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_15_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3800,6 +3893,7 @@
         "w": -69.00152
       },
       "overlay": "overlays/IR_01_20_16_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_16_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_16_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3821,6 +3915,7 @@
         "w": -68.751515
       },
       "overlay": "overlays/IR_01_20_17_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_17_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_17_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3842,6 +3937,7 @@
         "w": -69.251568
       },
       "overlay": "overlays/IR_01_20_18_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_18_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_18_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3863,6 +3959,7 @@
         "w": -69.001526
       },
       "overlay": "overlays/IR_01_20_19_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_19_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_19_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
@@ -3884,6 +3981,7 @@
         "w": -68.751516
       },
       "overlay": "overlays/IR_01_20_20_TextoyMapa.webp",
+      "pmtiles": "pmtiles/IR_01_20_20_TextoyMapa.pmtiles",
       "leyenda": "leyendas/IR_01_20_20_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Andrew J. Tomlinson, Nicolás Blanco P., Víctor Maksaev J., John H. Dilles, Anita L. Grunder, Marco Ladino U.",
