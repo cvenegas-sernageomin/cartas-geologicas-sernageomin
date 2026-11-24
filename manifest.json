@@ -4024,6 +4024,7 @@
         "w": -69.0
       },
       "overlay": "overlays/CGCH_40_TextoyMapa.webp",
+      "pmtiles": "pmtiles/CGCH_40_TextoyMapa.pmtiles",
       "leyenda": "leyendas/CGCH_40_TextoyMapa_leyenda.jpg",
       "opacidad": 1.0,
       "autor": "Carlos F. Ramírez R. y Carlos Huete L."
